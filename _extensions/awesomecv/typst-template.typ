@@ -1,4 +1,4 @@
-#import "@preview/fontawesome:0.5.0": *
+#import "@preview/fontawesome:0.6.0": *
 
 //------------------------------------------------------------------------------
 // Style
@@ -334,6 +334,8 @@
   font-text: "Source Sans 3",
   color-accent: rgb("#dc3522"),
   color-link: color-darknight,
+  title-meta: none,
+  author-meta: none,
   body,
 ) = {
   // Set states ----------------------------------------------------------------
@@ -344,8 +346,8 @@
 
   // Set document metadata -----------------------------------------------------
   set document(
-    author: author.firstname + " " + author.lastname,
-    title: title,
+    title: title-meta,
+    author: author-meta,
   )
 
   set text(

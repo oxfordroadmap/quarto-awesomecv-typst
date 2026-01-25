@@ -1,6 +1,7 @@
 #show: resume.with(
 $if(title)$
   title: [$title$],
+  title-meta: "$title-meta$$if(title-meta)$$else$$title$$endif$",
 $endif$
 $if(date)$
   date: [$date$],
@@ -17,6 +18,7 @@ $if(author)$
       icon: unescape_text("$it.icon$"),
     )$sep$, $endfor$),
   ),
+  author-meta: "$author.firstname$" + " " + "$author.lastname$",
 $endif$
 $if(profile-photo)$
   profile-photo: unescape_text("$profile-photo$"),
@@ -40,5 +42,9 @@ $if(style.color-link)$
   color-link: rgb("$style.color-link$"),
 $elseif(brand.color.link)$
   color-link: brand-color.link,
+$endif$
+$if(keywords)$
+  keywords: [$for(keywords)$$keywords$$sep$, $endfor$],
+  keywords-meta: ($for(keywords)$"$keywords$"$sep$, $endfor$),
 $endif$
 )
