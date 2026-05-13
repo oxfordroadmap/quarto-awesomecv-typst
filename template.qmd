@@ -1,5 +1,5 @@
 ---
-title: "Albert Einstein's CV"
+title: "Han-Teng Liao's CV"
 author:
   firstname: Albert
   lastname: Einstein
@@ -53,6 +53,9 @@ brand:
 
 {{< yaml assets/yml/publication.yml >}}
 
+## Professional Service
+
+{{< yaml assets/yml/service.yml >}}
 
 ## Work Experience
 
