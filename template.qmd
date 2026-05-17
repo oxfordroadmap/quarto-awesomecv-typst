@@ -1,29 +1,29 @@
 ---
 title: "Han-Teng Liao's CV"
 author:
-  firstname: Albert
-  lastname: Einstein
-  address: "Rämistrasse 101, CH-8092 Zürich, Switzerland, Zürich"
-  position: "Research Physicist ・ Professor"
+  firstname: Han-Teng
+  lastname: Liao
+  address: "Taipei and Penang"
+  position: "Socio-Technical System Architect ・ Ex Associate Professor and Vice Dean"
   contacts:
     - icon: fa envelope
-      text: ae@example.com
-      url: "mailto:ae@example.com"
+      text: Email
+      url: "mailto:h.liao@ieee.org"
     - icon: assets/icon/bi-house-fill.svg
-      text: example.com
-      url: https://example.com
+      text: Project
+      url: https://osf.io/dpjyn
     - icon: fa brands orcid
-      text: 0000-0000-0000-0000
-      url: https://orcid.org/0000-0000-0000-0000
+      text: 0000-0003-1081-5599
+      url: https://orcid.org/0000-0003-1081-5599
     - icon: fa brands github
       text: GitHub
-      url: https://github.com/example
+      url: https://github.com/hanteng
     - icon: fa brands linkedin
       text: LinkedIn
-      url: https://linkedin.com/in/example
+      url: https://www.linkedin.com/in/han-teng-liao-b175b75/
     - icon: fa brands x-twitter
       text: twitter
-      url: https://twitter.com/example
+      url: https://twitter.com/hanteng
 format: awesomecv-typst
 brand:
   typography: 
@@ -37,7 +37,7 @@ brand:
         style: [normal, italic]
     base: Source Sans 3
   color:
-    primary: "#dc3522"
+    primary: "#002147"
     link: "#771822"
   defaults: 
     awesomecv-typst:
