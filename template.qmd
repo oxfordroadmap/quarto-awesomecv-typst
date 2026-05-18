@@ -1,0 +1,70 @@
+---
+title: "Han-Teng Liao's CV"
+author:
+  firstname: Han-Teng
+  lastname: Liao
+  address: "Taipei and Penang"
+  position: "Socio-Technical System Architect ・ Ex Associate Professor and Vice Dean"
+  contacts:
+    - icon: fa envelope
+      text: Email
+      url: "mailto:h.liao@ieee.org"
+    - icon: assets/icon/bi-house-fill.svg
+      text: Project
+      url: https://osf.io/dpjyn
+    - icon: fa brands orcid
+      text: 0000-0003-1081-5599
+      url: https://orcid.org/0000-0003-1081-5599
+    - icon: fa brands github
+      text: GitHub
+      url: https://github.com/hanteng
+    - icon: fa brands linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/in/han-teng-liao-b175b75/
+    - icon: fa brands x-twitter
+      text: twitter
+      url: https://twitter.com/hanteng
+format: awesomecv-typst
+brand:
+  typography: 
+    fonts:
+      - family: Roboto
+        source: google
+        weight: [100, 400, 700]
+      - family: Source Sans 3
+        source: google
+        weight: [100, 400, 700]
+        style: [normal, italic]
+    base: Source Sans 3
+  color:
+    primary: "#002147"
+    link: "#771822"
+  defaults: 
+    awesomecv-typst:
+      font-header: Roboto
+---
+
+
+## Education
+
+{{< yaml assets/yml/education.yml >}}
+
+## Publications
+
+{{< yaml assets/yml/publication.yml >}}
+
+## Professional Service
+
+{{< yaml assets/yml/service.yml >}}
+
+## Work Experience
+
+{{< yaml assets/yml/work.yml >}}
+
+## Awards
+
+{{< yaml assets/yml/award.yml >}}
+
+## Skills
+
+{{< yaml assets/yml/skill.yml >}}
