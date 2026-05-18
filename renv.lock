@@ -888,6 +888,31 @@
       "Maintainer": "Yihui Xie <xie@yihui.name>",
       "Repository": "CRAN"
     },
+    "typstcv": {
+      "Package": "typstcv",
+      "Version": "0.0.2.4",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "CV for Quarto & Typst",
+      "Authors@R": "person(given = \"Kazuharu\", family = \"Yanagimoto\", email = \"kazuharu.yanagimoto@gmail.com\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0007-1967-8304\"))",
+      "Description": "Provides functions to create a entry of CV for Quarto & Typst.",
+      "License": "MIT + file LICENSE",
+      "Encoding": "UTF-8",
+      "LazyData": "true",
+      "URL": "https://github.com/kazuyanagimoto/typstcv, https://kazuyanagimoto/typstcv/",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
+      "Roxygen": "list(markdown = TRUE)",
+      "RoxygenNote": "7.3.2",
+      "Repository": "https://kazuyanagimoto.r-universe.dev",
+      "RemoteUrl": "https://github.com/kazuyanagimoto/typstcv",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "d6d55170e7c7e958e54e96f13cf9f0d70ed7f759",
+      "NeedsCompilation": "no",
+      "Author": "Kazuharu Yanagimoto [aut, cre] (ORCID: <https://orcid.org/0009-0007-1967-8304>)",
+      "Maintainer": "Kazuharu Yanagimoto <kazuharu.yanagimoto@gmail.com>"
+    },
     "xfun": {
       "Package": "xfun",
       "Version": "0.57",
