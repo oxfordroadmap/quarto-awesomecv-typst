@@ -12,9 +12,15 @@ author:
     - icon: assets/icon/bi-house-fill.svg
       text: Project
       url: https://osf.io/dpjyn
-    - icon: fa brands orcid
+    - icon: assets/icon/ORCID_iD.svg
       text: 0000-0003-1081-5599
       url: https://orcid.org/0000-0003-1081-5599
+    - icon: fa brands google
+      text: Google Scholar
+      url: "https://scholar.google.com/citations?user=NAeKcO4AAAAJ"
+    - icon: assets/icon/CLVT.svg
+      text: Web of Science
+      url: "https://www.webofscience.com/wos/author/record/AAC-5793-2019"
     - icon: fa brands github
       text: GitHub
       url: https://github.com/hanteng
@@ -47,7 +53,6 @@ brand:
 ## Professional Service
 
 {{< yaml assets/yml/service.yml >}}
-
 
 ## Education
 
