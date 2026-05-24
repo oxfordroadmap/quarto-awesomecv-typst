@@ -44,6 +44,10 @@ brand:
       font-header: Roboto
 ---
 
+## Professional Service
+
+{{< yaml assets/yml/service.yml >}}
+
 
 ## Education
 
@@ -52,10 +56,6 @@ brand:
 ## Publications
 
 {{< yaml assets/yml/publication.yml >}}
-
-## Professional Service
-
-{{< yaml assets/yml/service.yml >}}
 
 ## Work Experience
 

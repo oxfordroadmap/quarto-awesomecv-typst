@@ -158,7 +158,7 @@
           style: "normal",
           font: state-font-header.get(),
         )
-        #text(fill: color-gray, weight: "thin")[#firstname]
+        #text(fill: color-gray, weight: "medium")[#firstname]
         #text(weight: "bold")[#lastname]
       ]
     ]
