@@ -2,7 +2,7 @@ gbs_today:
   title: Editor & Project Founder (Public Service Initiative)
   location: Penang, Malaysia
   date: 01/01/2026 - Current
-  description: scvcs.footprints.cv - SSbD Chips Value Chain Services| GBS.today - Geopolitical Business Shifts & Strategies
+  description: #link("https://scvcs.footprints.cv")[scvcs.footprints.cv - SSbD Chips Value Chain Services] | #link("https://GBS.today")[GBS.today]
 oxford_roadmapping:
   title: Data Scientist and CEO
   location: Guangzhou, China
