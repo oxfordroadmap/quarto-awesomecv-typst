@@ -1,8 +1,55 @@
-nobel-prize:
-  title: Nobel Prize in Physics
-  location: Stockholm, Sweden
-  date: 1921
-  description: For his services to
+ieee_temsmet:
+  title: "Certificate of Merit"
+  location: "IEEE TEMSMET Conference"
+  date: "2021"
+  description: "Recognized for outstanding academic contributions"
   details:
-    - Theoretical Physics
-    - Discovery of the law of the photoelectric effect
+    - "Awarded for CSR (Corporate Social Responsibility) and ESG (Environmental, Social, and Governance) reporting research."
+
+guangdong_course:
+  title: "Province-Level 'First Class' Course"
+  location: "Guangdong Department of Education"
+  date: "2020"
+  description: "Curriculum Design & Pedagogy Excellence"
+  details:
+    - "Recognized for the development and instruction of the Capstone Project: 'API, machine learning and AI'."
+
+design_award:
+  title: "Nation-Level First Prize"
+  location: "National College Art & Design Awards"
+  date: "2020"
+  description: "Instructional Excellence"
+  details:
+    - "Awarded for Best Teaching for Capstone Project: 'API, machine learning and AI'."
+
+oxtalent:
+  title: "OxTALENT Awards"
+  location: "University of Oxford"
+  date: "2014"
+  description: "Best Interactive Infographics"
+  details:
+    - "Recognized excellence in university teaching using interactive digital content."
+
+circ_award:
+  title: "Best Student Paper Award"
+  location: "Chinese Internet Research Conference"
+  date: "2009"
+  description: "Research Excellence"
+  details:
+    - "Awarded for foundational digital community research."
+
+oxford_scholarship:
+  title: "PGP Corporation and OII Scholarship"
+  location: "Oxford Internet Institute, University of Oxford"
+  date: "2007"
+  description: "Merit-based Doctoral Scholarship"
+  details:
+    - "Value: £12,000 to support DPhil research."
+
+taiwan_merit:
+  title: "Taiwan Merit Scholarship"
+  location: "Taiwan Government"
+  date: "2007"
+  description: "Doctoral Research Fellowship"
+  details:
+    - "Awarded for doctoral research in Digital Content (TWD$ 2,000,000)."

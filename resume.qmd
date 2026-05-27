@@ -58,10 +58,6 @@ brand:
 
 {{< yaml assets/yml/education.yml >}}
 
-## Publications
-
-{{< yaml assets/yml/publication.yml >}}
-
 ## Work Experience
 
 {{< yaml assets/yml/work.yml >}}
@@ -69,6 +65,10 @@ brand:
 ## Awards
 
 {{< yaml assets/yml/award.yml >}}
+
+## Publications
+
+{{< yaml assets/yml/publication.yml >}}
 
 ## Skills
 
