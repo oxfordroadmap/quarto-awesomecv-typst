@@ -1,15 +1,55 @@
-zurich_ap:
-  title: Associate Professor
-  location: Zürich, Switzerland
-  date: 1909 - 1911
-  description: University of Zürich
-bern_jp:
-  title: Junior Professor
-  location: Bern, Switzerland
-  date: 1908 - 1909
-  description: University of Bern
-bern_ta:
-  title: Technical Assistant
-  location: Bern, Switzerland
-  date: 1902 - 1908
-  description: Federal Patent Office
+gbs_today:
+  title: Editor & Project Founder (Public Service Initiative)
+  location: Penang, Malaysia
+  date: 01/01/2026 - Current
+  description: scvcs.footprints.cv - SSbD Chips Value Chain Services| GBS.today - Geopolitical Business Shifts & Strategies
+oxford_roadmapping:
+  title: Data Scientist and CEO
+  location: Guangzhou, China
+  date: 01/01/2023 - Current
+  description: Oxford Roadmapping
+nanfang_heiac:
+  title: Director, Higher Education Impact Assessment Center
+  location: Guangzhou, China
+  date: 01/12/2019 - 01/01/2023
+  description: Nanfang College of Sun Yat-Sen University
+nanfang_vp:
+  title: Associate Professor & Vice-Dean, Internet and New Media
+  location: Guangzhou, China
+  date: 01/01/2017 - 01/01/2021
+  description: Nanfang College of Sun Yat-Sen University
+unu_rf:
+  title: Research Fellow
+  location: Macau, China
+  date: 01/07/2015 - 01/11/2016
+  description: United Nations University (UNU) Institute on Computing and Society
+georgetown_yf:
+  title: Yahoo! Fellow, Institute for the Study of Diplomacy
+  location: Washington DC, United States
+  date: 01/08/2010 - 01/07/2011
+  description: Georgetown University
+sinica_drf:
+  title: Doctoral Research Fellow
+  location: Taipei, Taiwan
+  date: 01/08/2009 - 01/06/2010
+  description: Institute of Sociology, Academia Sinica
+taiwan_military:
+  title: Political Warfare Officer (Mandatory Service)
+  location: Taiwan
+  date: 01/11/2005 - 01/12/2006
+  description: Taiwan Military
+sinica_pm:
+  title: Project Manager
+  location: Taipei, Taiwan
+  date: 01/10/2004 - 30/11/2005
+  description: Open Source Software Foundry (OSSF), Institute of Information Science, Academia Sinica
+ntu_ar:
+  title: Action Researcher & Graduate Teaching Assistant
+  location: Taipei, Taiwan
+  date: 01/09/2002 - 01/12/2003
+  description: Institute of Journalism, National Taiwan University
+yuan_liou:
+  title: Programmer & Independent Developer (Digital Publishing)
+  location: Taipei, Taiwan
+  date: 01/07/2000 - 31/08/2000
+  description: Yuan-Liou Publishing Co., Ltd.
