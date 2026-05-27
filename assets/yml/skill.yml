@@ -1,9 +1,15 @@
-lang:
-  title: Languages
-  description: German (Native), English (Fluent), French (Intermediate)
-programming:
-  title: Programming Languages
-  description: Python, C++, Fortran
-markup:
-  title: Markup Languages
-  description: Typst, Quarto, LaTeX
+strategic_architecture:
+  title: "Strategic Architecture & Governance"
+  description: "AI System & Platform Architecture, ICT System Architecture & Analysis, Systemic Design Thinking, Software Specification Analysis, Architecture Generalization"
+intelligence_foresight:
+  title: "Intelligence & Foresight (Data Science)"
+  description: "Strategic Foresight, Scenario Planning, Scientometrics, Bibliometrics, Science Mapping (Bibliometrix, VOSviewer), Webometrics, Knowledge Management"
+ai_automation:
+  title: "AI, Data Architecture & Automation"
+  description: "RAG (Retrieval-Augmented Generation) Context Engineering, Prompt Engineering, LLM-Driven Strategic Intelligence, Python (Pandas/NumPy), Semantic Data Modeling, Resource Description Framework (RDF), CMS Orchestration (Quarto, Obsidian, GitHub)"
+product_agile:
+  title: "Product & Agile Leadership"
+  description: "Full-Lifecycle Product Management (MVP to Scale), PRD/MRD/BRD Documentation, UX/UI Design Research, Scrum, Agile Workflows, GitHub-Based Collaborative Engineering"
+languages:
+  title: "Language Skills"
+  description: "Chinese (Mother tongue), English (Fluent — C2 across Listening, Reading, Spoken Production, Spoken Interaction, and Writing)"
