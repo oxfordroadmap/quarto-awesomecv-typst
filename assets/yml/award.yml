@@ -5,7 +5,6 @@ ieee_temsmet:
   description: Recognized for outstanding academic contributions
   details:
     - Awarded for CSR (Corporate Social Responsibility) and ESG (Environmental, Social, and Governance) reporting research.
-
 guangdong_course:
   title: Province-Level 'First Class' Course
   location: Guangdong Department of Education
@@ -13,7 +12,6 @@ guangdong_course:
   description: Curriculum Design & Pedagogy Excellence
   details:
     - Recognized for the development and instruction of the Capstone Project: 'API, machine learning and AI'.
-
 design_award:
   title: Nation-Level First Prize
   location: National College Art & Design Awards
@@ -21,7 +19,6 @@ design_award:
   description: Instructional Excellence
   details:
     - Awarded for Best Teaching for Capstone Project: 'API, machine learning and AI'.
-
 oxtalent:
   title: OxTALENT Awards
   location: University of Oxford
@@ -29,7 +26,6 @@ oxtalent:
   description: Best Interactive Infographics
   details:
     - Recognized excellence in university teaching using interactive digital content.
-
 circ_award:
   title: Best Student Paper Award
   location: Chinese Internet Research Conference
@@ -37,7 +33,6 @@ circ_award:
   description: Research Excellence
   details:
     - Awarded for foundational digital community research.
-
 oxford_scholarship:
   title: PGP Corporation and OII Scholarship
   location: Oxford Internet Institute, University of Oxford
@@ -45,7 +40,6 @@ oxford_scholarship:
   description: Merit-based Doctoral Scholarship
   details:
     - Value: £12,000 to support DPhil research.
-
 taiwan_merit:
   title: Taiwan Merit Scholarship
   location: Taiwan Government
