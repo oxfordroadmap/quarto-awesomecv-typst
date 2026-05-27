@@ -49,8 +49,8 @@
 // layout utility
 #let __justify_align(left_body, right_body) = {
   block[
-    #box(width: 4fr)[#left_body]
-    #box(width: 1fr)[
+    #box(width: 6fr)[#left_body]
+    #box(width: 3fr)[
       #align(right)[
         #right_body
       ]
