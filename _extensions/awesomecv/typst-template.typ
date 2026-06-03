@@ -359,7 +359,7 @@
 
   set page(
     paper: "a4",
-    margin: (left: 15mm, right: 15mm, top: 10mm, bottom: 10mm),
+    margin: (left: 12mm, right: 12mm, top: 10mm, bottom: 10mm),
     footer: context [
       #set text(
         fill: gray,
