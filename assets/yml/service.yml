@@ -14,8 +14,9 @@ ieee_carbon_neutrality:
   location: Technical
   date: 2026 — Present
   description: #link("https://ieeesystemscouncil.org/technical-committee/joint-isetems-tc-carbon-neutrality-technical-committee")[Joint IEEE Systems Engineering/TEMS TC on Carbon Neutrality]
-  details:
-    - Explore active research and strategies to promote carbon neutrality best practices, including surveying liaisons with other IEEE TCs, and other international organizations.
+  details:    
+     - Explore active research and strategies to promote carbon neutrality best practices, driving consortium actions with bodies like #link("https://sinano.eu/eu-projects-by-sinano/sinano-sustainability-actions/")[SiNANO] and orchestrating strategic liaisons across IEEE Technical Committees and international organizations.
+
 itu_standardization:
   title: Expert Contributor
   location: International Telecommunication Union
