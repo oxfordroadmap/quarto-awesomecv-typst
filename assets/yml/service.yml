@@ -16,7 +16,6 @@ ieee_carbon_neutrality:
   description: #link("https://ieeesystemscouncil.org/technical-committee/joint-isetems-tc-carbon-neutrality-technical-committee")[Joint IEEE Systems Engineering/TEMS TC on Carbon Neutrality]
   details:    
      - Explore active research and strategies to promote carbon neutrality best practices, driving consortium actions with bodies like #link("https://sinano.eu/eu-projects-by-sinano/sinano-sustainability-actions/")[SiNANO] and orchestrating strategic liaisons across IEEE Technical Committees and international organizations.
-
 itu_standardization:
   title: Expert Contributor
   location: International Telecommunication Union
@@ -33,3 +32,41 @@ ieee_leadership:
   description: IEEE Technology and Engineering Management Society (TEMS)
   details:
     - Orchestrated and managed the establishment of the IEEE TEMS Student Branch during tenure as Center Director.
+msieid_conference:
+  title: Program Committee Chair
+  location: Guangzhou, China
+  date: December 18-20, 2020
+  description: Management Science Informatization and Economic Innovation Development Conference (MSIEID)
+wedc_conference:
+  title: Conference Special Session Chair
+  location: Guangzhou, China
+  date: 2019
+  description: World Eco-Design Conference (WEDC) 2019
+  details:
+    - Chaired the session on #strong[Internet Eco-Design: Sustainable Development Innovation Design and Internet Eco-systems] (第二届世界生态设计大会--互联网生态设计：可持续发展创新设计与互联网生态).
+ifip_committee:
+  title: Program Committee Member
+  location: Yogyakarta, Indonesia
+  date: 2017
+  description: 14th International Conference of IFIP Working Group 9.4
+unescap_expert:
+  title: Invited Expert
+  location: United Nations ESCAP
+  date: 2015
+  description: Expert Meeting on Big Data and the 2030 Agenda for Sustainable Development
+  details:
+    - Provided expert insights on leveraging big data to advance the UN 2030 Sustainable Development Goals (SDGs).
+leiden_visiting_expert:
+  title: Visiting Expert
+  location: Leiden University, Netherlands
+  date: 2014
+  description: ERC Project "Authoritarianism 2.0"
+  details:
+    - Invited by Professor Daniela Stockmann to advise the European Research Council (ERC) project team on digital methods.
+circ_conference_organizer:
+  title: Conference Organizer
+  location: Washington DC, US
+  date: 2011
+  description: Chinese Internet Research Conference (CIRC 2011)
+  details:
+    - Co-organized the conference theme "Chinese Factors in Internet Development: Global Public Goods, National Policies, and Private Interests."
