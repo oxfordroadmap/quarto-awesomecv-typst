@@ -6,8 +6,14 @@ gbs_today:
 oxford_roadmapping:
   title: Data Scientist and CEO
   location: Guangzhou, China
-  date: 01/01/2023 - Current
+  date: 01/01/2023 - 2025
   description: Oxford Roadmapping
+  details:
+    - *Ecosystem Innovation Visualization:* Designed and deployed specialized visualization prototypes—including *visNetZero* (decarbonization pathways), *visCEADs* (carbon emission datasets), and *NetBib* (bibliometric networks)—to align industrial capabilities with SDG targets and operationalize ITU Digital Innovation Toolkits.
+    - *Co-Principal Research & Precision-Decarbonization:* Served as Co-Principal Researcher, Lead Data Scientist, and Corresponding Author for the \"Roadmapping for Precision-Decarbonization\" project, integrating qualitative policy analysis with quantitative precision analytics.
+    - *Data Science for Strategic Roadmapping:* Orchestrate workflows transforming raw scientometric, bibliometric, and patent data into strategic narratives to guide regional industrial policies, such as the EU Safe and Sustainable by Design (SSbD) framework and ASEAN Digital Economy Framework Agreement (DEFA).
+    - *High-Impact Bibliometric Publications:* Authored 4 SCIE/ESCI-indexed (Q2) peer-reviewed articles de-risking green digital infrastructure investments, establishing frameworks for: *Digital Transformation & Business Ecosystems*, *Partner Maps for ESG Capability Building*, *ITU-Standard Smart Digital Platforms for Carbon Neutral Management*, and *Supply Chain Resilience & Human Rights Knowledge Mapping*.
+    - *Full-Stack De-toxification & SSbD:* Applied the Safe and Sustainable by Design (SSbD) framework
 nanfang_heiac_GDT:
   title: Director, Higher Education Impact Assessment Center
   location: Guangzhou, China
