@@ -1,7 +1,7 @@
 liao2026_atoms_values:
   title: From Stacks to Circuits: A Regenerative Socio-Technical Roadmap for AI Infrastructure within Planetary Boundaries
-  location: ICE IEEE/ITMC, 22nd-25th June 2026, Porto - Portugal
-  date: June 2026
+  location: ICE IEEE/ITMC, Porto - Portugal
+  date: 22-25 June 2026
   description: Conference Paper
   details:
     - Contributors: *Han-Teng Liao*; Karen Ang
@@ -10,8 +10,8 @@ liao2026_atoms_values:
     - (To be) Presented in #strong[Digital Circular Economy] Special Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to anchor its *AuditSoS* Pillar through metrology-grounded Digital Product Passports (DPP).
 liao2026_ssbd:
   title: #link("https://doi.org/10.5281/zenodo.20283923")[Scoping Review of AI, Metrology, and ESG in the Semiconductor Sector: Implications for Safe and Sustainable by Design (SSbD)]
-  location: ICE IEEE/ITMC, 22nd-25th June 2026, Porto - Portugal
-  date: June 2026
+  location: ICE IEEE/ITMC, Porto - Portugal
+  date: 22-25 June 2026
   description: Conference Paper
   details:
     - Contributors: Karen Ang; *Han-Teng Liao*
@@ -20,8 +20,8 @@ liao2026_ssbd:
     - (To be) Presented in *Technology* Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to integrate RealSoS, GuardSoS and AuditSoS Pillars as a System of Systems(SoS).
 liao2026_twin_transition:
   title: Orchestrating the Twin Transition in Multinational Corporations: Technology Roadmapping for Green and Digital Global Business Services
-  location: ICE IEEE/ITMC, 22nd-25th June 2026, Porto - Portugal
-  date: June 2026
+  location: ICE IEEE/ITMC, Porto - Portugal
+  date: 22-25 June 2026
   description: Conference Paper
   details:
     - Contributors: *Han-Teng Liao*; Karen Ang
@@ -92,3 +92,4 @@ complete_profiles:
   description: Impact Information
   details:
     - Includes comprehensive tracking of peer-reviewed articles, conference papers, and h-index metrics.
+    - Maintained an accelerating citation trajectory with 800+ total citations (630+ since 2021), achieving an h-index of 16 and an i-index of 24 across leading high-impact sustainability and innovation journals.

@@ -3,8 +3,9 @@ title: "Han-Teng Liao's CV"
 author:
   firstname: Han-Teng
   lastname: Liao
+  position: "Socio-Technical System Architect and Researcher (former Associate Professor and Vice Dean)"
+  mission-statement: "Drives global value chain transitions through data-driven innovations, focusing on engineering safe and sustainable systems that span the industrial lifecycles: from the AI and semiconductor nexus, back to upstream petro-chemical inputs, and forward to downstream digital economies."
   address: "Taipei and Penang"
-  position: "Socio-Technical System Architect ・ Ex Associate Professor and Vice Dean"
   contacts:
     - icon: fa envelope
       text: Email

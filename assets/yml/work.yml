@@ -8,16 +8,27 @@ oxford_roadmapping:
   location: Guangzhou, China
   date: 01/01/2023 - Current
   description: Oxford Roadmapping
-nanfang_heiac:
+nanfang_heiac_GDT:
   title: Director, Higher Education Impact Assessment Center
   location: Guangzhou, China
-  date: 01/12/2019 - 01/01/2023
+  date: 12/2019 — 01/2023
   description: Nanfang College of Sun Yat-Sen University
+  details:  
+    - *Strategic Institutional Growth:* Founded and led a university-wide research center to optimize institutional impact and rankings (QS/THE), resulting in the center producing the highest volume of indexed research output in the institution.
+    - *Data-Driven Quality Assurance:* Architected performance visualization systems to monitor Outcome-Based Education (OBE) metrics, advocating international standards such as the Washington Accord (IEET).
+    - *Interdisciplinary AI Integration:* Orchestrated cross-departmental research projects (Engineering, Management, Accounting, and Humanities) focused on AI-SDG EcoInnovations and green digital transformation.
+    - *Global Research Orchestration:* Managed a research portfolio exceeding 250,000 RMB, initiating multi-disciplinary reporting for UN Academic Impact, alongside the launch and development of the IEEE TEMS Student Branch.
 nanfang_vp:
   title: Associate Professor & Vice-Dean, Internet and New Media
   location: Guangzhou, China
-  date: 01/01/2017 - 01/01/2021
+  date: 01/2017 — 01/2021
   description: Nanfang College of Sun Yat-Sen University
+  details:    
+    - *AI Product Management & Curriculum:* Acted as Lead Product Manager for a \"Venture-Ready\" GitHub portfolio, overseeing the end-to-end lifecycle of 18 core courses designed to scale capacity for AI solution leaders and product managers.
+    - *Award-Winning Socio-technical Systems Architecture:* Architected province-level \"First-Class\" Capstone courses (APIs, Machine Learning) using GitHub-based workflows and automation to simulate professional industrial engineering and product management environments and reflexive systems thinking.
+    - *Institutional Accreditation & Quality Assurance:* Led the transition to Outcome-Based Education (OBE) aligned with IEET/Washington Accord standards, using AI Product Manager competencies to align with international education standards.
+    - *Curriculum-as-MVP:* Designed a modular degree program where students developed PRD, MRD, and BRD documentation and functional prototypes, enabling graduates to transition into UX Design, Front-end Dev, and AI leadership roles.
+    - *Agile Leadership & Pedagogy:* Recruited and mentored a 7-person faculty team using Agile and Scrum methodologies to iterate on educational delivery, resulting in a reflexive pedagogical framework that allowed high-performing students to accelerate their graduation timeline by one full year (three students). One student was admitted to and graudated from #link("https://masterschool.eitdigital.eu/")[the European Institute of Innovation and Technology (EIT)].
 unu_rf:
   title: Research Fellow
   location: Macau, China

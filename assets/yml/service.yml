@@ -17,8 +17,8 @@ ieee_carbon_neutrality:
   details:    
      - Explore active research and strategies to promote carbon neutrality best practices, driving consortium actions with bodies like #link("https://sinano.eu/eu-projects-by-sinano/sinano-sustainability-actions/")[SiNANO] and orchestrating strategic liaisons across IEEE Technical Committees and international organizations.
 itu_standardization:
-  title: Expert Contributor
-  location: International Telecommunication Union
+  title: Expert Contributor, International Telecommunication Union
+  location: ITU
   date: 2023 - 2024
   description: ITU-T Focus Group on AI for Agriculture (FG-AI4A)
   details:
@@ -33,10 +33,10 @@ ieee_leadership:
   details:
     - Orchestrated and managed the establishment of the IEEE TEMS Student Branch during tenure as Center Director.
 msieid_conference:
-  title: Program Committee Chair
+  title: Program Committee Chair (MSIEID)
   location: Guangzhou, China
   date: December 18-20, 2020
-  description: Management Science Informatization and Economic Innovation Development Conference (MSIEID)
+  description: Management Science Informatization and Economic Innovation Development Conference
 wedc_conference:
   title: Conference Special Session Chair
   location: Guangzhou, China

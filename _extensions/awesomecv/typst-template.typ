@@ -49,7 +49,7 @@
 // layout utility
 #let __justify_align(left_body, right_body) = {
   block[
-    #box(width: 6fr)[#left_body]
+    #box(width: 9fr)[#left_body]
     #box(width: 3fr)[
       #align(right)[
         #right_body
@@ -151,10 +151,10 @@
   lastname: "",
 ) = {
   context {
-    pad(bottom: 5pt)[
+    pad(bottom: 3pt)[
       #block[
         #set text(
-          size: 32pt,
+          size: 28pt,
           style: "normal",
           font: state-font-header.get(),
         )
@@ -169,20 +169,17 @@
   position: "",
 ) = {
   set block(
-    above: 0.75em,
-    below: 0.75em,
+    above: 0.6em,
+    below: 0.6em,
   )
 
   context {
     set text(
       state-color-accent.get(),
-      size: 9pt,
-      weight: "regular",
+      size: 10.5pt,
+      weight: "medium",
     )
-
-    smallcaps[
-      #position
-    ]
+    position
   }
 }
 
@@ -190,12 +187,12 @@
   address: "",
 ) = {
   set block(
-    above: 0.75em,
-    below: 0.75em,
+    above: 0.5em,
+    below: 0.5em,
   )
   set text(
-    color-lightgray,
-    size: 9pt,
+    color-gray,
+    size: 9.5pt,
     style: "italic",
   )
 
@@ -306,6 +303,11 @@
   )
   set par(leading: 0.65em)
   set list(indent: 1em)
+  // ADJUST VISUAL GAP HIERARCHY HERE
+  set block(
+    above: 0.75em, // Pulls the bullet list close up against the description line
+    below: 1.5em, // Creates a solid, clear gap before the next job/service entry starts
+  )
   body
 }
 
@@ -336,6 +338,7 @@
   color-link: color-darknight,
   title-meta: none,
   author-meta: none,
+  mission-statement: "",
   body,
 ) = {
   // Set states ----------------------------------------------------------------
@@ -359,7 +362,7 @@
 
   set page(
     paper: "a4",
-    margin: (left: 12mm, right: 12mm, top: 12.5mm, bottom: 15mm),
+    margin: (left: 12mm, right: 12mm, top: 12.5mm, bottom: 12.5mm),
     footer: context [
       #set text(
         fill: gray,
@@ -438,6 +441,15 @@
     contacts: author.contacts,
     profile-photo: profile-photo,
   )
+  if mission-statement.len() > 0 {
+    v(0.5em)
+    block(width: 100%)[
+      #set text(size: 9pt, style: "italic", fill: color-darkgray)
+      #set par(justify: true, leading: 0.55em)
+      #mission-statement
+    ]
+    v(0.5em)
+  }
   body
 }
 

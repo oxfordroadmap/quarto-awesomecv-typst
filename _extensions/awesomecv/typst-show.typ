@@ -47,4 +47,7 @@ $if(keywords)$
   keywords: [$for(keywords)$$keywords$$sep$, $endfor$],
   keywords-meta: ($for(keywords)$"$keywords$"$sep$, $endfor$),
 $endif$
+$if(author.mission-statement)$
+  mission-statement: unescape_text("$author.mission-statement$"),
+$endif$
 )
