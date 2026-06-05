@@ -2,17 +2,17 @@ strategic_architecture:
   title: Strategic Architecture & Governance
   description: Integraton of the Socio-Technical: IEEE Systems Council (Social Implications of Technology) and Oxford Internet Institute Multi-disciplinary Training
   details: 
-  - AI System & Platform Architecture, ICT System Architecture & Analysis, Systemic Design Thinking, Software Specification Analysis, Architecture Generalization
+  - AI System & Platform Architecture, ICT System Architecture & Analysis, Systemic Design Thinking, Software Specification Analysis, Architecture Generalization, Knowledge Management
 intelligence_foresight:
   title: Intelligence & Foresight (Data Science)
   description: Integraton of Scientometrics/Webometrics and Technology Roadmapping (TRM)
   details: 
-  - Strategic Foresight, Scenario Planning, Scientometrics, Bibliometrics, Science Mapping (Bibliometrix, VOSviewer), Webometrics, Knowledge Management
+  - Strategic Foresight, Scenario Planning, Scientometrics, Bibliometrics, Webometrics, Science Mapping (Bibliometrix, VOSviewer) 
 ai_automation:
   title: AI, Data Architecture & Automation
   description: Integraton of Open Source/Open Content Ecosystems with Open Science Best Practices
   details: 
-  - RAG (Retrieval-Augmented Generation) Context Engineering, Prompt Engineering, LLM-Driven Strategic Intelligence, Python (Pandas/NumPy), Semantic Data Modeling, Resource Description Framework (RDF), CMS Orchestration (Quarto, Obsidian, GitHub)
+  - RAG (Retrieval-Augmented Generation), Harness Engineering, Context Engineering, LLM-Driven Strategic Intelligence, Python (Pandas/NumPy), Semantic Data Modeling, Resource Description Framework (RDF), CMS (Quarto & Obsidian)
 product_agile:
   title: Product & Agile Leadership
   description: Integraton of 2017-2023 Undergraduate Program Reform in China for Industry-ready Talents.

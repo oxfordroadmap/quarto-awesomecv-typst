@@ -10,7 +10,7 @@ oxford_roadmapping:
   description: Oxford Roadmapping
   details:
     - *Ecosystem Innovation Visualization:* Designed and deployed specialized visualization prototypes—including *visNetZero* (decarbonization pathways), *visCEADs* (carbon emission datasets), and *NetBib* (bibliometric networks)—to align industrial capabilities with SDG targets and operationalize ITU Digital Innovation Toolkits.
-    - *Co-Principal Research & Precision-Decarbonization:* Served as Co-Principal Researcher, Lead Data Scientist, and Corresponding Author for the \"Roadmapping for Precision-Decarbonization\" project, integrating qualitative policy analysis with quantitative precision analytics.
+    - *Co-Principal 2022ZDJS121 “Roadmapping for Precision-Decarbonization”:* Served as Co-Principal Researcher, Lead Data Scientist, and Corresponding Author for the \"Roadmapping for Precision-Decarbonization\" project, integrating qualitative policy analysis with quantitative precision analytics.
     - *Data Science for Strategic Roadmapping:* Orchestrate workflows transforming raw scientometric, bibliometric, and patent data into strategic narratives to guide regional industrial policies, such as the EU Safe and Sustainable by Design (SSbD) framework and ASEAN Digital Economy Framework Agreement (DEFA).
     - *High-Impact Bibliometric Publications:* Authored 4 SCIE/ESCI-indexed (Q2) peer-reviewed articles de-risking green digital infrastructure investments, establishing frameworks for: *Digital Transformation & Business Ecosystems*, *Partner Maps for ESG Capability Building*, *ITU-Standard Smart Digital Platforms for Carbon Neutral Management*, and *Supply Chain Resilience & Human Rights Knowledge Mapping*.
     - *Full-Stack De-toxification & SSbD:* Applied the Safe and Sustainable by Design (SSbD) framework
@@ -23,7 +23,7 @@ nanfang_heiac_GDT:
     - *Strategic Institutional Growth:* Founded and led a university-wide research center to optimize institutional impact and rankings (QS/THE), resulting in the center producing the highest volume of indexed research output in the institution.
     - *Data-Driven Quality Assurance:* Architected performance visualization systems to monitor Outcome-Based Education (OBE) metrics, advocating international standards such as the Washington Accord (IEET).
     - *Interdisciplinary AI Integration:* Orchestrated cross-departmental research projects (Engineering, Management, Accounting, and Humanities) focused on AI-SDG EcoInnovations and green digital transformation.
-    - *Global Research Orchestration:* Managed a research portfolio exceeding 250,000 RMB, initiating multi-disciplinary reporting for UN Academic Impact, alongside the launch and development of the IEEE TEMS Student Branch.
+    - *Research Orchestration:* Managed a research portfolio (e.g., 2019GXJK186) exceeding 200,000+ RMB, initiating multi-disciplinary reporting for UN Academic Impact, alongside the launch and development of the IEEE TEMS Student Branch.
 nanfang_vp:
   title: Associate Professor & Vice-Dean, Internet and New Media
   location: Guangzhou, China
@@ -31,8 +31,8 @@ nanfang_vp:
   description: Nanfang College of Sun Yat-Sen University
   details:    
     - *AI Product Management & Curriculum:* Acted as Lead Product Manager for a \"Venture-Ready\" GitHub portfolio, overseeing the end-to-end lifecycle of 18 core courses designed to scale capacity for AI solution leaders and product managers.
-    - *Award-Winning Socio-technical Systems Architecture:* Architected province-level \"First-Class\" Capstone courses (APIs, Machine Learning) using GitHub-based workflows and automation to simulate professional industrial engineering and product management environments and reflexive systems thinking.
-    - *Institutional Accreditation & Quality Assurance:* Led the transition to Outcome-Based Education (OBE) aligned with IEET/Washington Accord standards, using AI Product Manager competencies to align with international education standards.
+    - *Award-Winning “Smart App Design Innovation Research in the Age of New Business, Arts and Engineering Disciplines [2019GXJK186]”:* Architected province-level \"First-Class\" Capstone courses (APIs, Machine Learning) using GitHub-based workflows and automation to integrate systems thinking and design thinking for the Internet industry.
+    - *Quality Assurance:* Led the transition to Outcome-Based Education (OBE) aligned with IEET/Washington Accord standards, using AI Product Manager competencies to align with international education standards.
     - *Curriculum-as-MVP:* Designed a modular degree program where students developed PRD, MRD, and BRD documentation and functional prototypes, enabling graduates to transition into UX Design, Front-end Dev, and AI leadership roles.
     - *Agile Leadership & Pedagogy:* Recruited and mentored a 7-person faculty team using Agile and Scrum methodologies to iterate on educational delivery, resulting in a reflexive pedagogical framework that allowed high-performing students to accelerate their graduation timeline by one full year (three students). One student was admitted to and graudated from #link("https://masterschool.eitdigital.eu/")[the European Institute of Innovation and Technology (EIT)].
 unu_rf:

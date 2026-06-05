@@ -6,7 +6,7 @@ liao2026_atoms_values:
   details:
     - Contributors: *Han-Teng Liao*; Karen Ang
     - Challenges Nvidia's "electrons-to-tokens" 5-layer scaling trajectories by converting thermodynamic entropy and Scope 3 metrics into dynamic, regeneratively accountable circuits.
-    - Introduces a Regenerative Socio-Technical (RST) Roadmap to address the hidden environmental, thermal, and material costs of unconstrained Generative AI scaling.
+    - Introduces a Regenerative Socio-Technical (RST) Roadmap to address the hidden environmental, thermal, cognitive and material costs of unconstrained Generative AI scaling.
     - (To be) Presented in #strong[Digital Circular Economy] Special Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to anchor its *AuditSoS* Pillar through metrology-grounded Digital Product Passports (DPP).
 liao2026_ssbd:
   title: #link("https://doi.org/10.31235/osf.io/yknwt_v1")[Scoping Review of AI, Metrology, and ESG in the Semiconductor Sector: Implications for Safe and Sustainable by Design (SSbD)]
