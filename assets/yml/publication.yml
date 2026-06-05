@@ -7,7 +7,7 @@ liao2026_atoms_values:
     - Contributors: *Han-Teng Liao*; Karen Ang
     - Challenges Nvidia's "electrons-to-tokens" 5-layer scaling trajectories by converting thermodynamic entropy and Scope 3 metrics into dynamic, regeneratively accountable circuits.
     - Introduces a Regenerative Socio-Technical (RST) Roadmap to address the hidden environmental, thermal, and material costs of unconstrained Generative AI scaling.
-    - (To be) Presented in **Digital Circular Economy** Special Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to anchor its **AuditSoS** Pillar through metrology-grounded Digital Product Passports (DPP).
+    - (To be) Presented in #strong[Digital Circular Economy] Special Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to anchor its *AuditSoS* Pillar through metrology-grounded Digital Product Passports (DPP).
 liao2026_ssbd:
   title: #link("https://doi.org/10.5281/zenodo.20283923")[Scoping Review of AI, Metrology, and ESG in the Semiconductor Sector: Implications for Safe and Sustainable by Design (SSbD)]
   location: ICE IEEE/ITMC, 22nd-25th June 2026, Porto - Portugal
@@ -17,7 +17,7 @@ liao2026_ssbd:
     - Contributors: Karen Ang; *Han-Teng Liao*
     - Proposes a novel 6-layer System of Systems (SoS) architecture to integrate AI-driven metrology, supply chain ESG metrics, and federated industrial data spaces into an integrated architecture.
     - Bridges the gap between precision manufacturing and verifiable environmental sustainability by embedding SSbD as core operational logic for Industry 5.0.
-    - (To be) Presented in **Technology** Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to integrate RealSoS, GuardSoS and AuditSoS Pillars as a System of Systems(SoS).
+    - (To be) Presented in *Technology* Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to integrate RealSoS, GuardSoS and AuditSoS Pillars as a System of Systems(SoS).
 liao2026_twin_transition:
   title: Orchestrating the Twin Transition in Multinational Corporations: Technology Roadmapping for Green and Digital Global Business Services
   location: ICE IEEE/ITMC, 22nd-25th June 2026, Porto - Portugal
@@ -27,7 +27,7 @@ liao2026_twin_transition:
     - Contributors: *Han-Teng Liao*; Karen Ang
     - Synthesizes Technology Roadmapping (TRM) and the ITU innovation toolkit to treat Global Business Services (GBS) units as strategic "operational airlocks."
     - Establishes a socio-technical framework for multinational corporations to harmonize internal digital agility and AI-native transitions with external sustainability mandates.
-    - (To be) Presented in **Innovation** Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to cross-map carbon border adjustment data aggregation under its **AuditSoS** Pillar for regional GBS 5.0 networks.
+    - (To be) Presented in *Innovation* Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to cross-map carbon border adjustment data aggregation under its *AuditSoS* Pillar for regional GBS 5.0 networks.
 liao2023_esg:
   title: #link("https://doi.org/10.3389/fenvs.2023.1119011")[Collaborating on ESG consulting, reporting, and communicating education: Using partner maps for capability building design]
   location: Frontiers in Environmental Science
@@ -38,7 +38,6 @@ liao2023_esg:
     - Contributors: *Han-Teng Liao*; Chung-Lien Pan; Yuan Zhang
     - Applied design science and circular economy frameworks to map the specific data and digital skills required for ESG consulting and reporting.
     - Establishes a collaborative roadmap for universities and industry to build capability for sustainable innovation across disciplines and sectors.
-
 pan2023_resilience:
   title: #link("https://doi.org/10.3389/fenvs.2023.1152345")[Knowledge Mapping of Resilience and Human Rights in Supply Chains]
   location: Frontiers in Environmental Science
