@@ -24,6 +24,12 @@ local function parse_yaml(content)
             item.date = line_trimmed:match("^date:%s*(.+)")
         elseif indent_level > 0 and line_trimmed:match("^description:%s*(.+)") then
             item.description = line_trimmed:match("^description:%s*(.+)")
+        -- ==========================================
+        -- SAFE INSERT: Explicitly catch the DOI field 
+        -- ==========================================
+        elseif indent_level > 0 and line_trimmed:match("^doi:%s*(.+)") then
+            item.doi = line_trimmed:match("^doi:%s*(.+)")
+        -- ==========================================
         elseif indent_level > 0 and line_trimmed:match("^details:%s*$") then
             item.details = {}
             in_details = true
@@ -80,6 +86,15 @@ local function construct_entry(data)
             table.insert(entry_parts, '  description: none,')
         end
         
+        -- ADDED: Append doi explicitly into the Typst function argument list
+        if item.doi then
+            -- Strips accidental quotes if present in raw yaml string mapping
+            local clean_doi = tostring(item.doi):gsub('^"', ''):gsub('"$', ''):gsub("^'", ""):gsub("'$", "")
+            table.insert(entry_parts, '  doi: "' .. clean_doi .. '",')
+        else
+            table.insert(entry_parts, '  doi: none,')
+        end
+
         table.insert(entry_parts, ")")
         
         -- Add details if present

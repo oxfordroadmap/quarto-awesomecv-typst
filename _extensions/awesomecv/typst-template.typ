@@ -316,10 +316,26 @@
   location: "",
   date: "",
   description: "",
+  doi: none,       // ADDED: Accepting the new argument
 ) = {
   pad[
     #justified-header(title, location)
-    #secondary-justified-header(description, date)
+
+    // Combine Type and DOI into a single inline line
+    #let left_column = block[
+      #if description != none {
+        text(description)
+      }
+      #if doi != none {
+        h(0.3em) // Add clean horizontal breathing room right after the type text
+        text(size: 8.5pt, fill: color-gray)[
+          #box(height: 8.5pt, baseline: 13.5%)[#image("assets/icon/doi.svg")]
+          #link("https://doi.org/" + doi)[#text(fill: rgb("#0066cc"), font: "Liberation Mono")[#doi]]
+        ]
+      }
+    ]
+
+    #secondary-justified-header(left_column, date)
   ]
 }
 
