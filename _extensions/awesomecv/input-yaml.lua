@@ -16,6 +16,11 @@ local function parse_yaml(content)
             end
             item = {}
             in_details = false
+        -- ==========================================
+        -- ADDED: Explicitly catch the proportion field 
+        -- ==========================================
+        elseif indent_level > 0 and line_trimmed:match("^proportion:%s*(.+)") then
+            item.proportion = line_trimmed:match("^proportion:%s*(.+)")
         elseif indent_level > 0 and line_trimmed:match("^title:%s*(.+)") then
             item.title = line_trimmed:match("^title:%s*(.+)")
         elseif indent_level > 0 and line_trimmed:match("^location:%s*(.+)") then
@@ -57,8 +62,14 @@ local function construct_entry(data)
     for _, item in ipairs(entries) do
         local entry_parts = {}
         table.insert(entry_parts, "#resume-entry(")
-        
-        -- Add title
+
+        -- ==========================================
+        -- ADDED: Forward proportion if it exists, else let Typst default handle it
+        -- ==========================================
+        if item.proportion then
+            table.insert(entry_parts, '  proportion: ' .. tostring(item.proportion) .. ',')
+        end
+        -- ==========================================-- Add title
         if item.title then
             table.insert(entry_parts, '  title: [' .. tostring(item.title).. '],')
         else

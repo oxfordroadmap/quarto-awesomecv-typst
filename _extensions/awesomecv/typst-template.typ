@@ -46,11 +46,13 @@
   text.replace("\\", "").replace(".~", ". ")
 }
 
-// layout utility
-#let __justify_align(left_body, right_body) = {
+// layout utility: Now natively scales dynamically out of a 12-fraction base grid
+#let __justify_align(left_body, right_body, proportion: 9) = {
+  let left_fr = proportion * 1fr
+  let right_fr = (12 - proportion) * 1fr
   block[
-    #box(width: 9fr)[#left_body]
-    #box(width: 3fr)[
+    #box(width: left_fr)[#left_body]
+    #box(width: right_fr)[
       #align(right)[
         #right_body
       ]
@@ -107,18 +109,13 @@
 /// Justified header that takes a primary section and a secondary section. The primary section is on the left and the secondary section is on the right.
 /// - primary (content): The primary section of the header
 /// - secondary (content): The secondary section of the header
-#let justified-header(primary, secondary) = {
-  set block(
-    above: 0.7em,
-    below: 0.7em,
-  )
+// Fixed primary header to support layout adjustments if needed
+// Fixed primary header to support layout adjustments if needed
+#let justified-header(primary, secondary, proportion: 9) = {
+  set block(above: 0.7em, below: 0.7em)
   pad[
-    #__justify_align[
-      #set text(
-        size: 12pt,
-        weight: "bold",
-        fill: color-darkgray,
-      )
+    #__justify_align(proportion: proportion)[
+      #set text(size: 12pt, weight: "bold", fill: color-darkgray)
       #primary
     ][
       #secondary-right-header[#secondary]
@@ -126,11 +123,11 @@
   ]
 }
 
-/// Justified header that takes a primary section and a secondary section. The primary section is on the left and the secondary section is on the right. This is a smaller header compared to the `justified-header`.
+/// Justified header that takes a primary section and a secondary section.
 /// - primary (content): The primary section of the header
 /// - secondary (content): The secondary section of the header
-#let secondary-justified-header(primary, secondary) = {
-  __justify_align[
+#let secondary-justified-header(primary, secondary, proportion: 9) = { // <--- FIXED: Added named argument
+  __justify_align(proportion: proportion)[                             // <--- FIXED: Forwarding argument
     #set text(
       size: 10pt,
       weight: "regular",
@@ -141,7 +138,6 @@
     #tertiary-right-header[#secondary]
   ]
 }
-
 //------------------------------------------------------------------------------
 // Header
 //------------------------------------------------------------------------------
@@ -305,8 +301,8 @@
   set list(indent: 1em)
   // ADJUST VISUAL GAP HIERARCHY HERE
   set block(
-    above: 0.75em, // Pulls the bullet list close up against the description line
-    below: 1.5em, // Creates a solid, clear gap before the next job/service entry starts
+    above: 0.6em, // Pulls the bullet list close up against the description line
+    below: 1em, // Creates a solid, clear gap before the next job/service entry starts
   )
   body
 }
@@ -317,9 +313,10 @@
   date: "",
   description: "",
   doi: none,       // ADDED: Accepting the new argument
+  proportion: 9,   // 1. Receives the value (or defaults to 9)
 ) = {
   pad[
-    #justified-header(title, location)
+    #justified-header(title, location, proportion: proportion)
 
     // Combine Type and DOI into a single inline line
     #let left_column = block[
@@ -330,12 +327,12 @@
         h(0.3em) // Add clean horizontal breathing room right after the type text
         text(size: 8.5pt, fill: color-gray)[
           #box(height: 8.5pt, baseline: 13.5%)[#image("assets/icon/doi.svg")]
-          #link("https://doi.org/" + doi)[#text(fill: rgb("#0066cc"), font: "Liberation Mono")[#doi]]
+          #link("https://doi.org/" + doi)[#text(fill: rgb("#0066cc"), font: "Courier New")[#doi]]
         ]
       }
     ]
 
-    #secondary-justified-header(left_column, date)
+    #secondary-justified-header(left_column, date, proportion: proportion)
   ]
 }
 
@@ -378,7 +375,7 @@
 
   set page(
     paper: "a4",
-    margin: (left: 12mm, right: 12mm, top: 12.5mm, bottom: 12.5mm),
+    margin: (left: 10mm, right: 10mm, top: 12.5mm, bottom: 12.5mm),
     footer: context [
       #set text(
         fill: gray,

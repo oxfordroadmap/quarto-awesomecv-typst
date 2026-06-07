@@ -29,7 +29,20 @@ liao2026_twin_transition:
     - Synthesizes Technology Roadmapping (TRM) and the ITU innovation toolkit to treat Global Business Services (GBS) units as strategic "operational airlocks."
     - Establishes a socio-technical framework for multinational corporations to harmonize internal digital agility and AI-native transitions with external sustainability mandates.
     - (To be) Presented in *Innovation* Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to cross-map carbon border adjustment data aggregation under its *AuditSoS* Pillar for regional GBS 5.0 networks.
+liao2023_smart:
+  proportion: 8
+  title: #link("https://doi.org/10.3389/fevo.2023.1134381")[Smart digital platforms for carbon neutral management and services: Business models based on ITU standards for green digital transformation]
+  location: Frontiers in Ecology and Evolution
+  date: March 2023
+  doi: 10.3389/fevo.2023.1134381
+  description: Journal article
+  details:
+    - Contributors: *Han-Teng Liao*; Chung-Lien Pan; Yuan Zhang
+    - Evaluated the architectural gap between ITU green digital transformation standards and China's CPCNMSP policy framework, highlighting the latter's omission of "AI of the environment" (infrastructure footprint tracking).
+    - Synthesized these global standards into a specialized multi-sided Platform Canvas designed to capture metrics, curation pathways, and currency mechanisms for data-driven decisions.
+    - Modeled an open-innovation business framework featuring targeted engineering design questions to optimize, substitute, and manage greenhouse gas (GHG) emission data for both producer and consumer participant segments.
 liao2023_esg:
+  proportion: 8
   title: #link("https://doi.org/10.3389/fenvs.2023.1119011")[Collaborating on ESG consulting, reporting, and communicating education: Using partner maps for capability building design]
   location: Frontiers in Environmental Science
   date: March 2023
@@ -40,6 +53,7 @@ liao2023_esg:
     - Applied design science and circular economy frameworks to map the specific data and digital skills required for ESG consulting and reporting.
     - Establishes a collaborative roadmap for universities and industry to build capability for sustainable innovation across disciplines and sectors.
 pan2023_resilience:
+  proportion: 8
   title: #link("https://doi.org/10.3389/fenvs.2023.1152345")[Knowledge Mapping of Resilience and Human Rights in Supply Chains]
   location: Frontiers in Environmental Science
   date: April 2023
@@ -60,7 +74,8 @@ liao2023_ports:
     - Utilized scientometrics and science mapping to analyze the digital transformation of intelligent ports within Global Value Chains (GVC).
     - Identifies technical and governance bottlenecks in open and collaborative innovation, providing a strategic roadmap for port-city digital integration.
 zhang2021_neutrality:
-  title: #link("https://doi.org/10.3389/fenvs.2021.761736")[Carbon neutrality policies and technologies: A scientometric analysis of social science disciplines]'
+  proportion: 8
+  title: #link("https://doi.org/10.3389/fenvs.2021.761736")[Carbon neutrality policies and technologies: A scientometric analysis of social science disciplines]
   location: Frontiers in Environmental Science  
   date: October 2021  
   doi: 10.3389/fenvs.2021.761736  
@@ -69,8 +84,9 @@ zhang2021_neutrality:
     - Contributors: Yuan Zhang; Chung-Lien Pan; *Han-Teng Liao*    
     - Conducted a comprehensive science mapping and systematic review of 907 social science articles to delineate disciplinary boundaries and collaborative frameworks for net-zero pathways.    - Highlighted the critical intersection where green digital transformation and datafied environmental indicators must guide human production and consumption patterns.
 liao2020_museums:
-  title: #link("https://doi.org/10.2991/assehr.k.200428.101")[A Literature Review of Museum and Heritage on Digitization, Digitalization, and Digital Transformation]'
-  location: Proceedings of the 6th International Conference on Humanities and Social Science Research (ICHSSR 2020)  
+  proportion: 7
+  title: #link("https://doi.org/10.2991/assehr.k.200428.101")[A Literature Review of Museum and Heritage on Digitization, Digitalization, and Digital Transformation]
+  location: International Conference on Humanities and Social Science Research (ICHSSR 2020)  
   date: May 2020  
   doi: 10.2991/assehr.k.200428.101  
   description: Conference paper  
@@ -78,6 +94,7 @@ liao2020_museums:
     - Contributors: *Han-Teng Liao*; Man Zhao; Si-Pan Sun    
     - Executed a scientometric analysis of 1,107 Web of Science articles using VOSviewer and custom Python scripts to categorize distinct layers of socio-technical transitions.    - Mapped the shift in cultural institution research fronts from technology-centric concerns to people-centric concerns (digital literacy, organizational adaptation).
 liao2009_wikipedia:
+  proportion: 7
   title: #link("https://doi.org/10.1109/MTS.2009.932799")[Conflict and consensus in the Chinese version of Wikipedia]
   location: IEEE Technology and Society Magazine  
   date: June 2009  
@@ -86,11 +103,13 @@ liao2009_wikipedia:
   details:
     - Contributors: *Han-Teng Liao*    
     - Investigated the socio-technical architectures, editorial policy alignments, and hyperlinked structures used to govern consensus in high-conflict, cross-border digital environments.    - Analyzed how political and cultural cybernetics operate when collaborative web spaces cross sensitive jurisdictional and ideological boundaries.
-complete_profiles:
-  title: More publications and citation indices are available via my #link("https://orcid.org/0000-0003-1081-5599")[ORCID Profile] and #link("https://scholar.google.com/citations?user=NAeKcO4AAAAJ")[Google Scholar Profile].
+more_complete_profiles:
+  proportion: 8
+  title: More publications and citation indices ...
   location: Academic Profiles
   date: Current
-  description: Impact Information
+  description: Profile Metrics
   details:
-    - Includes comprehensive tracking of peer-reviewed articles, conference papers, and h-index metrics.
+    - *Digital Portfolios:* Comprehensive tracking and publication records are available via my #link("https://orcid.org/0000-0003-1081-5599")[ORCID Profile] and #link("https://scholar.google.com/citations?user=NAeKcO4AAAAJ")[Google Scholar Profile].
+    - Includes comprehensive tracking of peer-reviewed articles, conference papers, and citation impact metrics.
     - Maintained an accelerating citation trajectory with 800+ total citations (630+ since 2021), achieving an h-index of 16 and an i-index of 24 across leading high-impact sustainability and innovation journals.
