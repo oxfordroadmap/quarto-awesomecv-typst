@@ -9,7 +9,7 @@ liao2026_atoms_values:
     - Introduces a Regenerative Socio-Technical (RST) Roadmap to address the hidden environmental, thermal, cognitive and material costs of unconstrained Generative AI scaling.
     - (To be) Presented in #strong[Digital Circular Economy] Special Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to anchor its *AuditSoS* Pillar through metrology-grounded Digital Product Passports (DPP).
 liao2026_ssbd:
-  doi: 10.5281/zenodo.20283923
+  doi: 10.31235/osf.io/yknwt_v1
   title: #link("https://hanteng.sapiens.cv/assets/preprints/2026_ICE_Porto-Semiconductor_SSbD-64a-preprint.pdf")[Scoping Review of AI, Metrology, and ESG in the Semiconductor Sector: Implications for Safe and Sustainable by Design (SSbD)]
   location: ICE IEEE/ITMC, Porto - Portugal
   date: 22-25 June 2026
@@ -20,6 +20,7 @@ liao2026_ssbd:
     - Bridges the gap between precision manufacturing and verifiable environmental sustainability by embedding SSbD as core operational logic for Industry 5.0.
     - (To be) Presented in *Technology* Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to integrate RealSoS, GuardSoS and AuditSoS Pillars as a System of Systems(SoS).
 liao2026_twin_transition:
+  doi: 10.31235/osf.io/ktcxd_v1
   title: #link("https://hanteng.sapiens.cv/assets/preprints/2026_ICE-Porto_GBS_52c-preprint.pdf")[Orchestrating the Twin Transition in Multinational Corporations: Technology Roadmapping for Green and Digital Global Business Services]
   location: ICE IEEE/ITMC, Porto - Portugal
   date: 22-25 June 2026
