@@ -11,14 +11,14 @@ guangdong_course:
   date: 2020
   description: Curriculum Design & Pedagogy Excellence
   details:
-    - Recognized for the development and instruction of the Capstone Project: 'API, machine learning and AI'.
+    - Recognized for the development and instruction of the Capstone Project Course: 'API, Machine Learning and AI'.
 design_award:
   title: Nation-Level First Prize, National College Art & Design Awards
   location: China
   date: 2020
   description: Instructional Excellence
   details:
-    - Awarded for Best Teaching for Capstone Project: 'API, machine learning and AI'.
+    - Awarded for Best Teaching for Capstone Project: 'API, Machine Learning and AI'.
 oxtalent:
   title: OxTALENT Awards
   location: University of Oxford
@@ -44,6 +44,6 @@ taiwan_merit:
   title: Taiwan Merit Scholarship
   location: Taiwan Government
   date: 2007
-  description: Doctoral Research Fellowship
-  details:
-    - Awarded for doctoral research in Digital Content (TWD \$2,000,000).
+  description: Doctoral Research Scholarship
+#  details:
+#    - Awarded for doctoral research in Digital Content (TWD \$2,000,000).

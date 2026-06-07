@@ -2,12 +2,15 @@ strategic_architecture:
   title: Strategic Architecture & Governance
   description: Integraton of the Socio-Technical: IEEE Systems Council (Social Implications of Technology) and Oxford Internet Institute Multi-disciplinary Training
   details: 
-  - AI System & Platform Architecture, ICT System Architecture & Analysis, Systemic Design Thinking, Software Specification Analysis, Architecture Generalization, Knowledge Management
+  - AI System & Platform Architecture, ICT System Architecture & Analysis 
+  - Systemic Design Thinking, Software Specification Analysis 
+  - Architecture Generalization, Socio-Technical Systems (STS), #link("https://doi.org/10.1109/MSIEID52046.2020.00076")[Cyber-Physical Systems (CPS)], #link("https://dl.acm.org/doi/abs/10.1145/3444370.3444603")[CPS and Twin Transition]
 intelligence_foresight:
   title: Intelligence & Foresight (Data Science)
   description: Integraton of Scientometrics/Webometrics and Technology Roadmapping (TRM)
   details: 
-  - Strategic Foresight, Scenario Planning, Scientometrics, Bibliometrics, Webometrics, Science Mapping (Bibliometrix, VOSviewer) 
+  - Strategic Foresight, Knowledge Management, Scenario Planning, Knowledge Graphs
+  - Scientometrics, Bibliometrics, Webometrics, Science Mapping (Bibliometrix, VOSviewer) 
 ai_automation:
   title: AI, Data Architecture & Automation
   description: Integraton of Open Source/Open Content Ecosystems with Open Science Best Practices
@@ -18,8 +21,10 @@ product_agile:
   description: Integraton of 2017-2023 Undergraduate Program Reform in China for Industry-ready Talents.
   details: 
   - Full-Lifecycle Product Management (MVP to Scale), PRD/MRD/BRD Documentation, UX/UI Design Research, Scrum, Agile Workflows, GitHub-Based Collaborative Engineering
-languages:
+language_skills:
   title: Language Skills
-  description: Deep Integraton of Cross-lingual and Cross-cultural Communication Skills, including the Language Industry.
-  details: 
-  - Chinese (Mother tongue), English (Fluent — C2 across Listening, Reading, Spoken Production, Spoken Interaction, and Writing)
+  location: CEFR C2 Certified
+  description: High-level cross-lingual communication and global value chain translation capabilities.
+  details:
+    - *Chinese:* Native proficiency (Mother tongue).
+    - *English:* C2 Proficient User (Fluent mastery across Listening, Reading, Speaking, and Writing).

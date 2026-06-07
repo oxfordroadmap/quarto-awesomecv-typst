@@ -16,6 +16,13 @@ ieee_carbon_neutrality:
   description: #link("https://ieeesystemscouncil.org/technical-committee/joint-isetems-tc-carbon-neutrality-technical-committee")[Joint IEEE Systems Engineering/TEMS TC on Carbon Neutrality]
   details:    
      - Explore active research and strategies to promote carbon neutrality best practices, driving consortium actions with bodies like #link("https://sinano.eu/eu-projects-by-sinano/sinano-sustainability-actions/")[SiNANO] and orchestrating strategic liaisons across IEEE Technical Committees and international organizations.
+aies_conference_2026:
+  title: Program Committee / Technical Reviewer
+  location: Technical
+  date: 2026 — Present
+  description: #link("https://www.aies-conference.com/2026/")[ACM/AAAI Conference on Artificial Intelligence, Ethics, and Society (AIES)]
+  details:
+    - Serving as an invited technical program committee member and peer reviewer evaluating technical manuscripts on AI governance, ethics, and socio-technical alignment frameworks.
 itu_standardization:
   title: Expert Contributor, International Telecommunication Union
   location: ITU
