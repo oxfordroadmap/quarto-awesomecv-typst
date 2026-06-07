@@ -10,8 +10,11 @@ author:
     - icon: fa envelope
       text: Email
       url: "mailto:h.liao@ieee.org"
-    - icon: assets/icon/bi-house-fill.svg
-      text: Project
+    - icon: fa globe
+      text: SCVCS
+      url: "https://scvcs.footprints.cv/"
+    - icon: assets/icon/osf.svg
+      text: OSF
       url: https://osf.io/dpjyn
     - icon: assets/icon/ORCID_iD.svg
       text: 0000-0003-1081-5599
@@ -28,9 +31,12 @@ author:
     - icon: fa brands linkedin
       text: LinkedIn
       url: https://www.linkedin.com/in/han-teng-liao-b175b75/
-    - icon: fa brands x-twitter
-      text: twitter
-      url: https://twitter.com/hanteng
+    - icon: assets/icon/bi-house-fill.svg
+      text: Blogs
+      url: https://hanteng.sapiens.cv/blog
+#    - icon: fa brands x-twitter
+#      text: twitter
+#      url: https://twitter.com/hanteng
 format: awesomecv-typst
 brand:
   typography: 
