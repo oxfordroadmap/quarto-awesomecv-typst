@@ -30,6 +30,18 @@ liao2026_twin_transition:
     - Synthesizes Technology Roadmapping (TRM) and the ITU innovation toolkit to treat Global Business Services (GBS) units as strategic "operational airlocks."
     - Establishes a socio-technical framework for multinational corporations to harmonize internal digital agility and AI-native transitions with external sustainability mandates.
     - (To be) Presented in *Innovation* Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to cross-map carbon border adjustment data aggregation under its *AuditSoS* Pillar for regional GBS 5.0 networks.
+liao2024_ecosystem_innovation:
+  proportion: 8
+  doi: 10.1016/j.ijis.2024.04.003
+  title: #link("https://doi.org/10.1016/j.ijis.2024.04.003")[Digital transformation and innovation and business ecosystems: A bibliometric analysis for conceptual insights and collaborative practices for ecosystem innovation]
+  location: International Journal of Innovation Studies
+  date: April 2024
+  description: Journal article
+  details:
+    - Contributors: *Han-Teng Liao*; Chung-Lien Pan; Zhiying Wu
+    - Conducted a PRISMA-compliant bibliometric analysis and science mapping of digital transformation (DT) literature focusing on business and innovation ecosystems to unlock pathways toward UN SDGs.
+    - Proposed a Green Digital Transformation (GDT) innovation roadmap integrating the Triple Helix model with the "ecosystem economy", establishing how digital systems must map onto natural planetary boundaries.
+    - Concludes that meaningful GDT requires the eco-design of corporate digital strategies, offering a structured "ecosystem innovation" research agenda that balances industrial digitalization with real-time tracking of environmental resources and ecosystem services.
 liao2023_smart:
   proportion: 8
   title: #link("https://doi.org/10.3389/fevo.2023.1134381")[Smart digital platforms for carbon neutral management and services: Business models based on ITU standards for green digital transformation]
