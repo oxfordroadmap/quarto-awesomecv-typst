@@ -67,7 +67,42 @@
     "href": "slides/decks/IRDS.html#ieee-irds",
     "title": "What is IEEE IRDS?",
     "section": "IEEE IRDS",
-    "text": "IEEE IRDS\nBy expert representatives from global semiconductor manufacturers and related experts, the Institute of Electrical and Electronics Engineers (IEEE) International Roadmap for Devices and Systems (IRDS) establishes a comprehensive strategic framework for advanced hardware acceleration, microelectronics, and computing systems. It represents a collective multi-stakeholder consensus engineered by expert representatives from global semiconductor manufacturers, original equipment manufacturers (OEMs), materials suppliers, and analytical research laboratories. Ultimately, the roadmap operates as the definitive technological baseline for evaluating modern fabrication capabilities(Ang and Liao 2026) and guiding scaling trajectories within global value chains(Liao and Ang forthcoming, 2026).\nIEEE IRDS ESHS\nFocusing on sustainability on and around the semiconductor facilities, the Environment, Safety, Health & Sustainability (ESHS) chapter of the roadmap defines quantitative benchmarks and actionable targets for building climate-resilient fabrication facilities[Liao and Ang (forthcoming, 2026)](Ang and Liao 2026).\nGrounded in localized monitoring frameworks, it outlines critical tracking metrics including freshwater usage, evaporative water losses, hazardous waste generation, and energy consumption factors. However, contemporary reviews identify ongoing technology gaps within the roadmap, particularly regarding real-time chemical intensity tracking, Scope 1 greenhouse gas tool abatement, and Scope 3 supply-chain footprint blind spots.\nESHS as Sites of Practice\nSemiconductor facilities become important sites of practice and research for smart sustainable manufacturing to integrate best Industry 5.0 with advanced RegTech and FinTech (Ang and Liao 2026; Liao et al. 2026).\n\nMaps directly to the Twin Green & Digital Transition.\nBridges factory-floor operational data with macro ESG frameworks.\n\nSee Also: Semi Standards\nThe IRDS framework explicitly cross-references established SEMI standards to govern manufacturing sustainability metrics, particularly leveraging the SEMI S Series (Safety, Environmental & Energy) to calculate Equivalent Energy Consumption Factors (Liao and Ang forthcoming, 2026).\nThis coordination establishes unified financial and environmental benchmarking metrics, allowing technology managers to balance tool-level operational constraints with localized utility realities.\nOther relevant SEMI standards consists of SEMI MF Series (Metrology), SEMI T Series (Traceability) and SEMI F Series (Facilities). Also SEMI MS Series and SEMI C Series can have specific material flow requirements for the SEMI M Series (Wafers & Process Control) to implement a System of Systems (SoS) orchestration."
+    "text": "IEEE IRDS\nBy expert representatives from global semiconductor manufacturers and related experts, the Institute of Electrical and Electronics Engineers (IEEE) International Roadmap for Devices and Systems (IRDS) establishes a comprehensive strategic framework for advanced hardware acceleration, microelectronics, and computing systems.\nIt represents a collective multi-stakeholder consensus engineered by expert representatives from global semiconductor manufacturers, original equipment manufacturers (OEMs), materials suppliers, and analytical research laboratories."
+  },
+  {
+    "objectID": "slides/decks/IRDS.html#many-roadmaps",
+    "href": "slides/decks/IRDS.html#many-roadmaps",
+    "title": "What is IEEE IRDS?",
+    "section": "Many Roadmaps?",
+    "text": "Many Roadmaps?\nUltimately, the roadmaps operate as the definitive technological baselines for many aspects of semidconductor manufacturing. They are thus useful for evaluating modern fabrication capabilities(Ang and Liao 2026) and guiding scaling trajectories within global value chains(Liao and Ang forthcoming, 2026)."
+  },
+  {
+    "objectID": "slides/decks/IRDS.html#eee-irds-eshs",
+    "href": "slides/decks/IRDS.html#eee-irds-eshs",
+    "title": "What is IEEE IRDS?",
+    "section": "EEE IRDS ESHS",
+    "text": "EEE IRDS ESHS\nFocusing on sustainability on and around the semiconductor facilities, the Environment, Safety, Health & Sustainability (ESHS) chapter of the roadmap defines quantitative benchmarks and actionable targets for building climate-resilient fabrication facilities[Liao and Ang (forthcoming, 2026)](Ang and Liao 2026).\nGrounded in facility-monitoring, it outlines critical tracking metrics including freshwater usage, evaporative water losses, hazardous waste generation, and energy consumption factors. However, contemporary reviews identify ongoing technology gaps within the roadmap, particularly regarding real-time chemical intensity tracking, Scope 1 greenhouse gas tool abatement, and Scope 3 supply-chain footprint blind spots."
+  },
+  {
+    "objectID": "slides/decks/IRDS.html#eshs-as-sites-of-practice",
+    "href": "slides/decks/IRDS.html#eshs-as-sites-of-practice",
+    "title": "What is IEEE IRDS?",
+    "section": "ESHS as Sites of Practice",
+    "text": "ESHS as Sites of Practice\nSemiconductor facilities become important sites of practice and research for smart sustainable manufacturing to integrate best Industry 5.0 with advanced RegTech and FinTech (Ang and Liao 2026; Liao et al. 2026).\n\nMaps directly to the Twin Green & Digital Transition.\nBridges factory-floor operational data with macro ESG frameworks."
+  },
+  {
+    "objectID": "slides/decks/IRDS.html#see-also-semi-standards---1",
+    "href": "slides/decks/IRDS.html#see-also-semi-standards---1",
+    "title": "What is IEEE IRDS?",
+    "section": "See Also: Semi Standards - 1",
+    "text": "See Also: Semi Standards - 1\nThe IRDS framework explicitly cross-references established SEMI standards to govern manufacturing sustainability metrics, particularly leveraging the SEMI S Series (Safety, Environmental & Energy) to calculate Equivalent Energy Consumption Factors (Liao and Ang forthcoming, 2026)."
+  },
+  {
+    "objectID": "slides/decks/IRDS.html#see-also-semi-standards---2",
+    "href": "slides/decks/IRDS.html#see-also-semi-standards---2",
+    "title": "What is IEEE IRDS?",
+    "section": "See Also: Semi Standards - 2",
+    "text": "See Also: Semi Standards - 2\nThis coordination establishes unified financial and environmental benchmarking metrics, allowing technology managers to balance tool-level operational constraints with localized utility realities.\nOther relevant SEMI standards consists of SEMI MF Series (Metrology), SEMI T Series (Traceability) and SEMI F Series (Facilities). Also SEMI MS Series and SEMI C Series can have specific material flow requirements for the SEMI M Series (Wafers & Process Control) to implement a System of Systems (SoS) orchestration."
   },
   {
     "objectID": "slides/decks/IRDS.html#references",
