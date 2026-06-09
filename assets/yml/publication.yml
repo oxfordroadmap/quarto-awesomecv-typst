@@ -5,7 +5,7 @@ liao2026_atoms_values:
   description: Conference Paper
   details:
     - Contributors: *Han-Teng Liao*; Karen Ang
-    - Challenges Nvidia's "electrons-to-tokens" 5-layer scaling trajectories by converting thermodynamic entropy and Scope 3 metrics into dynamic, regeneratively accountable circuits.
+    - Challenges Nvidia's "electrons-to-tokens" five-layer scaling trajectories by converting thermodynamic entropy and Scope 3 metrics into dynamic, regeneratively accountable circuits.
     - Introduces a Regenerative Socio-Technical (RST) Roadmap to address the hidden environmental, thermal, cognitive and material costs of unconstrained Generative AI scaling.
     - (To be) Presented in #strong[Digital Circular Economy] Special Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to anchor its *AuditSoS* Pillar through metrology-grounded Digital Product Passports (DPP).
 liao2026_ssbd:
@@ -16,7 +16,7 @@ liao2026_ssbd:
   description: Conference Paper
   details:
     - Contributors: Karen Ang; *Han-Teng Liao*
-    - Proposes a novel 6-layer System of Systems (SoS) architecture to integrate AI-driven metrology, supply chain ESG metrics, and federated industrial data spaces into an integrated architecture.
+    - Proposes a novel six-layer System of Systems (SoS) architecture to integrate AI-driven metrology, supply chain ESG metrics, and federated industrial data spaces into an integrated architecture.
     - Bridges the gap between precision manufacturing and verifiable environmental sustainability by embedding SSbD as core operational logic for Industry 5.0.
     - (To be) Presented in *Technology* Session, providing the conceptual foundation for the #link("https://scvcs.footprints.cv/")[SCVCS] to integrate RealSoS, GuardSoS and AuditSoS Pillars as a System of Systems(SoS).
 liao2026_twin_transition:
@@ -91,7 +91,7 @@ zhang2021_neutrality:
   title: #link("https://doi.org/10.3389/fenvs.2021.761736")[Carbon neutrality policies and technologies: A scientometric analysis of social science disciplines]
   location: Frontiers in Environmental Science  
   date: October 2021  
-  doi: 10.3389/fenvs.2021.761736  
+  doi: 10.3389/fenvs.2021.761736
   description: Journal article  
   details:
     - Contributors: Yuan Zhang; Chung-Lien Pan; *Han-Teng Liao*    

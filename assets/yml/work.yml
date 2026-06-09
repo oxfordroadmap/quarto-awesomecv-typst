@@ -4,9 +4,9 @@ scvcs_gbs_today:
   date: 01/01/2026 - Current
   description: #link("https://scvcs.footprints.cv")[scvcs.footprints.cv - SSbD Chips Value Chain Services] | #link("https://GBS.today")[GBS.today]
   details:
-    - *Regenerative Socio-Technical Roadmapping and Accounting:* Initiated the SCVCS initiative by establishing a conceptual "Atoms-to-Law" framework, translating complex global semiconductor workflows along the EU-Penang-Hsinchu corridor into an actionable roadmap for smart sustainable manufacturing.
-    - *Automated Infrastructure Development:* Spearheaded the ongoing architectural design of three core pillars —RealSoS, GuardSoS, and AuditSoS— integrating Trusted Execution Environments (TEEs) and International Data Space connections to automate inline compliance (GDPR, CSDDD, CBAM) while protecting factory yield telemetry.
-    - *Consortium Building for EU Funding:* Actively orchestrating international outreach to secure 2–3 EU/UK research partners in SSbD, virtual metrology and FinTech/RegTech, alongside ASEAN packaging hubs and GBS 5.0 networks, to co-design pilot deployments for upcoming collaborative funding tracks.
+    - *Regenerative Socio-Technical Roadmapping and Accounting:* Initiated the SCVCS initiative by establishing a conceptual #link("https://hanteng.sapiens.cv/assets/preprints/2026_ICE-Porto_DCE_Regenerative_Socio_Technical_Roadmap-47-preprint.pdf")["Atoms-to-Law" framework], translating complex global semiconductor workflows along the EU-Penang-Hsinchu corridor into an actionable roadmap for smart sustainable manufacturing.
+    - *Automated Infrastructure Development:* Spearheaded the ongoing architectural design of three core pillars —RealSoS, GuardSoS, and AuditSoS— integrating Trusted Execution Environments (TEEs) and International Data Space connections to automate inline compliance via #link("https://doi.org/10.48550/arXiv.2606.09227")[professional proxy agents] (GDPR, CSDDD, CBAM) while protecting factory yield telemetry.
+    - *Consortium Building for EU Funding:* Actively orchestrating international outreach to secure 2–3 EU/UK research partners in SSbD, virtual metrology and FinTech/RegTech, alongside ASEAN packaging hubs and #link("https://hanteng.sapiens.cv/assets/preprints/2026_ICE-Porto_GBS_52c-preprint.pdf")[GBS 5.0 networks], to co-design pilot deployments for upcoming collaborative funding tracks.
 oxford_roadmapping:
   title: Data Scientist and CEO
   location: Guangzhou, China
