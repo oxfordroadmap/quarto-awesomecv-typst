@@ -29,7 +29,14 @@ jobs:
 
       - name: Render Quarto
         run: quarto render
-        
+
+      # FIX 2: Ensure your custom root redirection isn't overwritten by GitHub Pages
+      - name: Create fallback index for root redirection (Optional but Recommended)
+        run: |
+          if [ ! -f _site/index.html ]; then
+            echo '<meta http-equiv="refresh" content="0; URL='\''/resume.pdf'\''" />' > _site/index.html
+          fi
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

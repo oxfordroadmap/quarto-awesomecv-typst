@@ -1,5 +1,6 @@
 ---
-title: "Han-Teng Liao's CV"
+title: "Curriculum Vitae: Han-Teng Liao"
+format: awesomecv-typst
 author:
   firstname: Han-Teng
   lastname: Liao
@@ -37,7 +38,6 @@ author:
 #    - icon: fa brands x-twitter
 #      text: twitter
 #      url: https://twitter.com/hanteng
-format: awesomecv-typst
 brand:
   typography: 
     fonts:

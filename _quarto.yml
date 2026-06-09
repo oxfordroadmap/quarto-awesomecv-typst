@@ -3,3 +3,21 @@ project:
   resources:
     - "assets/"
     - "*.pdf"
+  output-dir: _site
+
+website:
+  title: "Han-Teng Liao: CV & Blog"
+  # Optional: You can add a simple navbar here if you want blog readers 
+  # to see a navigation bar, or leave it blank to keep pages clean.
+  navbar:
+    left:
+      - text: "CV"
+        href: /resume.pdf
+      - text: "Blog"
+        href: /blog/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
