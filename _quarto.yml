@@ -1,9 +1,15 @@
 project:
   type: website
+  output-dir: _site
+# CRITICAL: Prevent the website watcher from processing the Typst file
+  render:
+    - "*.qmd"
+    - "!resume.qmd"
   resources:
     - "assets/"
+    - "blog/"
+    - "slides/"
     - "*.pdf"
-  output-dir: _site
 
 website:
   title: "Han-Teng Liao: CV & Blog"
@@ -12,10 +18,11 @@ website:
   navbar:
     left:
       - text: "CV"
-        href: /resume.pdf
+        href: index.qmd
       - text: "Blog"
-        href: /blog/index.qmd
-
+        href: blog/index.qmd
+      - text: "Slides"
+        href: slides/index.qmd
 format:
   html:
     theme: cosmo

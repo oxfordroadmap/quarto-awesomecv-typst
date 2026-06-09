@@ -1,0 +1,24 @@
+---
+title: "Technology Roadmapping for the Twin Transition in Global Business Services"
+subtitle: "Bridging Green and Digital Strategies via Operational Airlocks"
+author: "Han-Teng Liao"
+date: 2026-06-02
+categories: [Global Business Service, Twin Transition, Technology Roadmapping, RegTech, IEEE ICE 2026]
+description: "Synthesizing Technology Roadmapping and the ITU innovation toolkit to identify GBS units as strategic operational airlocks for multinational corporations."
+---
+
+**FOR IMMEDIATE RELEASE**
+
+**Penang, Malaysia – June 2, 2026** – The Safe-and-Sustainable-by-Design (SSbD) Chips Value Chain Services (SCVCS) initiative is pleased to announce that its research, titled "**Orchestrating the Twin Transition in Multinational Corporations: Technology Roadmapping for Green and Digital Global Business Services**," has been formally accepted for presentation at the 32nd IEEE ICE/ITMC Conference in Porto, Portugal.
+
+### Research Contribution: Bridging Green and Digital Strategies
+
+This research addresses the challenge of synchronizing digital transformation with sustainability objectives within large-scale operations. Led by the SCVCS team, the study synthesizes Technology Roadmapping (TRM) and the ITU innovation toolkit to identify Global Business Services (GBS) units as "operational airlocks." These units play a vital role in mediating between broader environmental goals and concrete digital execution, helping to manage the structural complexity of **INN 2** (inclusive and accessible innovation practices) and **INN 3** (global response to EU-level coordination and standardization). 
+
+Furthermore, our work highlights that after foundational roadmapping, **INN 4** requires a human-centric shift to ensure that GBS units can effectively orchestrate and govern AI-native transitions. Finally, by framing GBS as strategic "operational airlocks," we address **INN 5** by defining GBS as a multinational corporation's living laboratory. As multinational corporations (MNCs) face increasing pressure to harmonize digital efficiency with environmental stewardship, our research derives a socio-technical framework that treats GBS units as the primary nexus for these complex transitions.
+
+### Invitation for Collaboration
+
+The [SCVCS initiative](https://scvcs.footprints.cv/) welcomes engagement with industry leaders, academic researchers, and sustainability practitioners to further develop these roadmapping frameworks for cross-sectoral interoperability and improved organizational alignment during the Twin Transition.
+
+*The [SCVCS initiative](https://scvcs.footprints.cv/) remains dedicated to advancing the 2026 European Commission SSbD Stakeholder Agenda and the IEEE IRDS roadmaps, ensuring that regulatory compliance serves as a catalyst for industrial innovation in Industry 5.0 ecosystems.*

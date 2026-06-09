@@ -1,0 +1,24 @@
+---
+title: "Semiconductor Safe and Sustainable by Design (SSbD)"
+subtitle: "Architecting a 6-Layer System of Systems for Advanced Manufacturing"
+author: "Han-Teng Liao"
+date: 2026-06-01
+categories: [Semiconductor, SSbD, RegTech, Technology Roadmapping, IEEE ICE 2026]
+description: "Announcing a novel six-layer System of Systems architecture integrating AI-driven metrology, supply chain ESG metrics, and federated industrial data spaces."
+---
+
+**FOR IMMEDIATE RELEASE**
+
+**Penang, Malaysia – June 1, 2026** – The Safe-and-Sustainable-by-Design (SSbD) Chips Value Chain Services (SCVCS) initiative is pleased to announce that its research, titled "**Scoping Review of AI, Metrology, and ESG in the Semiconductor Sector: Implications for Safe and Sustainable by Design (SSbD)**," has been formally accepted for presentation at the 32nd IEEE ICE/ITMC Conference in Porto, Portugal.
+
+### Research Contribution: Architecting SSbD Systems
+
+This study addresses the complex integration required to achieve sustainable semiconductor manufacturing. Led by the SCVCS team, the research proposes a novel 6-layer System of Systems (SoS) architecture. This framework is designed to integrate AI-driven metrology, supply chain Environmental, Social, and Governance (ESG) metrics, and federated industrial data spaces into a unified platform for SSbD manufacturing execution.
+
+The SCVCS initiative deeply values the rigorous peer-review provided by this committee. Our contribution aligns with these themes by operationalizing a multi-layered SoS architecture that bridges **TEC 1** (AI-supported roadmapping) and **TEC 2** (Digital Transformation for Competitiveness) through **TEC 3** (Federated and secure industrial data spaces). Furthermore, our work highlights that after foundational systems thinking across metrology and AI, **TEC 4** requires attention to compliance and transparency. Finally, by embedding SSbD as the core operational logic, we address **TEC 5** by establishing climate-resilient, low-carbon manufacturing trajectories that translate atomic-scale process precision into verifiable environmental sustainability.
+
+### Invitation for Collaboration
+
+The [SCVCS initiative](https://scvcs.footprints.cv/) welcomes engagement with industry leaders, academic researchers, and sustainability practitioners to further develop these architectural frameworks for cross-sectoral interoperability and enhanced manufacturing sustainability.
+
+*The [SCVCS initiative](https://scvcs.footprints.cv/) remains dedicated to advancing the 2026 European Commission SSbD Stakeholder Agenda and the IEEE IRDS roadmaps, ensuring that regulatory compliance serves as a catalyst for industrial innovation in Industry 5.0 ecosystems.*

@@ -1,0 +1,26 @@
+---
+title: "Trustworthy Smart Fabs via Professional Proxies"
+subtitle: "Scaling Safe and Sustainable by Design through Industrial Data Spaces"
+author: "Han-Teng Liao"
+date: 2026-05-27
+categories: [Smart Fabs, AI Agents, Trusted Execution Environments, International Data Spaces, SSbD]
+description: "Addressing the Data Sovereignty Paradox using role-based autonomous agentic workflows operating within hardware-isolated trust zones."
+---
+
+**FOR IMMEDIATE RELEASE**
+
+**Penang, Malaysia – May 27, 2026** – The Safe-and-Sustainable-by-Design (SSbD) Chips Value Chain Services (SCVCS) initiative is pleased to announce that its latest research, titled "**Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces**," has been formally accepted for presentation in the proceedings of the 32nd IEEE ICE/ITMC Conference. 
+
+### Research Contribution: Bridging Compliance and Innovation
+
+The research introduces the "Professional Proxies" framework—a novel approach to managing regulatory governance within semiconductor manufacturing. Authored by Han-Teng Liao (Independent Researcher), Chang-Yi Kao (Soochow University), and Karen Ang (Independent Researcher), the study addresses the critical "Data Sovereignty Paradox" faced by advanced "Smart Fabs". By implementing autonomous agentic workflows within hardware-isolated Trusted Execution Environments (TEEs), the framework enables fabs to verify sustainability profiles without exposing proprietary manufacturing recipes.
+
+### Acknowledgment of Review Resources
+
+The authors extend their sincere gratitude to the organizers and the Review Committee of **Special Session [SS04]: Trustworthy Autonomous AI for Digital Transformation**, chaired by Dr. Nahid Farhady Ghalaty, Jordan Hull, and Abhilasha Bhargav-Spantzel (Microsoft). While the team will not be presenting on-site in Porto, the SCVCS initiative deeply values the helpful reviews and critiques provided by this committee. The insights gained from this peer-review process are currently being incorporated into an expanded version of the manuscript, which the team intends to submit for formal journal publication, where the conference and committee’s rigorous contributions will be fully acknowledged.
+
+### Invitation for Collaboration
+
+The [SCVCS initiative](https://scvcs.footprints.cv/) welcomes engagement with industry leaders, academic researchers, and sustainability practitioners to further develop these frameworks for cross-sectoral interoperability and molecule-to-market traceability.
+
+*The [SCVCS initiative](https://scvcs.footprints.cv/) remains dedicated to advancing the 2026 European Commission SSbD Stakeholder Agenda and the IEEE IRDS roadmaps, ensuring that regulatory compliance serves as a catalyst for industrial innovation in Industry 5.0 ecosystems.*

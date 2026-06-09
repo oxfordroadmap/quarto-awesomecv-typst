@@ -1,0 +1,50 @@
+---
+title: "What is Safe and Sustainable by Design (SSbD)?"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+bibliography: "../../bibliography/2026-ICE.bib"
+---
+
+## Safe and Sustainable by Design (SSbD)
+
+Driven by the European Union's 2026 chemical and industrial strategy mandates, the **Safe and Sustainable by Design (SSbD)** framework establishes an upstream, proactive paradigm that integrates safety, circularity, and functional performance from the earliest stages of material and process engineering [@Liao-2026-ID-372]. 
+
+Rather than relying on retrospective, "end-of-pipe" pollution abatement strategies, SSbD shifts the compliance burden into early-stage product lifecycle design. This model systematically preempts industrial risk by evaluating material flows, environmental toxicities, and occupational health hazards across the complete value chain [@Ang-2026-ID-286].
+
+---
+
+### SSbD Architecture in Smart Fabs
+
+To deploy SSbD inside complex semiconductor environments, advanced production lines must transition from static reporting to real-time, multi-layered data architectures [@Ang-2026-ID-286].
+
+- **Virtual Metrology (VM):** Leverages AI models to run continuous, non-destructive monitoring of physical and environmental parameters on the factory floor [@Ang-2026-ID-286; @Liao-2026-ID-372].
+- **Socio-Technical Orchestration:** Balances tool-level physical yields with stringent regulatory compliance matrices like the Corporate Sustainability Due Diligence Directive (CSDDD) and the Carbon Border Adjustment Mechanism (CBAM) [@Liao-2026-ID-372].
+
+---
+
+### Trust Verification via Industrial Data Spaces
+
+A persistent barrier to executing SSbD within the semiconductor value chain is the *Data Sovereignty Paradox*: fabs must prove sustainability compliance without exposing proprietary process recipes [@Liao-2026-ID-372].
+
+- **Professional Proxies:** Role-based autonomous agentic workflows coordinate an automated "relay race" between Facility, Process, and Finance engineering teams [@Liao-2026-ID-372].
+- **Trusted Execution Environments (TEEs):** Computational logic runs within hardware-isolated trust zones, enabling Federated Machine Learning (FML) to calculate metrics securely [@Liao-2026-ID-372].
+- **Cryptographic Export:** Generates cryptographically signed compliance tokens that are transmitted over **International Data Spaces (IDS)** connectors to verify upstream design integrity [@Liao-2026-ID-372].
+
+---
+
+### See Also: SEMI ESHS Integration
+
+The technical execution of SSbD principles relies directly on operationalizing cross-industry frameworks, particularly linking macro-level design criteria with [IRDS Roadmaps](https://irds.ieee.org/) and **[SEMI standards](https://www.semi.org/en/products-services/standards/using-semi-standards)** [@Liao-2026-ICE-DCE; @Liao-2026-ID-372].
+
+- **SEMI S23 & S2 (Safety & Energy):** Quantifies early-stage tool modifications to accurately calculate tool-level Equivalent Energy Consumption Factors [@Liao-2026-ICE-DCE].
+- **SEMI MF & F Series (Metrology & Facilities):** Standardizes real-time sensor streams to create trustworthy **Digital Product Passports (DPPs)**, ensuring that clean, circular material flows feed back into the wafer fabrication lifecycle.
+
+---
+
+## References
+
+::: {#refs}
+:::
