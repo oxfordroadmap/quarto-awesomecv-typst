@@ -1,0 +1,24 @@
+---
+title: "From 'Electrons-to-Tokens' Stacks to 'Atoms-to-Values' Circuits"
+subtitle: "A Regenerative Socio-Technical Roadmap for AI Infrastructure within Planetary Boundaries"
+author: "Han-Teng Liao"
+date: 2026-06-04
+categories: [AI Infrastructure, Circular Economy, Twin Transition, IEEE ICE 2026, SSbD]
+description: "Reframing artificial intelligence infrastructure as a system-of-systems anchored within a metabolic, resource-parsimonious circuit."
+---
+
+**FOR IMMEDIATE RELEASE**
+
+**Penang, Malaysia – June 4, 2026** – The Safe-and-Sustainable-by-Design (SSbD) Chips Value Chain Services (SCVCS) initiative is proud to present its research mapping the physical boundaries of digital scale, titled "**From Stacks to Circuits: A Regenerative Socio-Technical Roadmap for AI Infrastructure within Planetary Boundaries**," accepted for publication at the 32nd IEEE ICE/ITMC Conference.
+
+### Research Contribution: Reframing Infrastructure Paths
+
+This study introduces a Regenerative Socio-Technical roadmap that reframes AI infrastructure as a system-of-systems governed ultimately by planetary limits. By integrating the Institute of Electrical and Electronics Engineers International Roadmap for Devices and Systems (IEEE IRDS) sustainability considerations for semiconductor facilities, the study proposes a metabolic circuit framework that centers "Values and Needs" within production and consumption loops. 
+
+The SCVCS initiative deeply values the rigorous peer-review provided by the committee, including Prof. Ricardo Jardim Goncalves (New University of Lisbon) and José Ferreira (UNINOVA). This work provides a verifiable mechanism for resource efficiency and product lifecycle transparency that responds directly to real-world infrastructure constraints—such as the recent grid stress limits observed in Taiwan. By anchoring artificial intelligence within a metabolic circuit, the study demonstrates how a spontaneous order of resource parsimony can foster industrial resilience in the digital circular economy.
+
+### Invitation for Collaboration
+
+The [SCVCS Initiative](https://scvcs.footprints.cv/) welcomes engagement with industry leaders, academic researchers, and sustainability practitioners to further develop these frameworks for cross-sectoral interoperability and molecule-to-market traceability.
+
+*The [SCVCS initiative](https://scvcs.footprints.cv/) remains dedicated to advancing the 2026 European Commission SSbD Stakeholder Agenda and the 2024 IRDS roadmaps, ensuring that regulatory compliance serves as a catalyst for industrial innovation in Industry 5.0 ecosystems.*

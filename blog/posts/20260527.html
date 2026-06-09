@@ -7,8 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Han-Teng Liao">
+<meta name="dcterms.date" content="2026-05-27">
+<meta name="description" content="Addressing the Data Sovereignty Paradox using role-based autonomous agentic workflows operating within hardware-isolated trust zones.">
 
-<title>Strategy Insights – Han-Teng Liao: CV &amp; Blog</title>
+<title>Trustworthy Smart Fabs via Professional Proxies – Han-Teng Liao: CV &amp; Blog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,25 +29,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-94b323657c735dfe3b1bf6ebb2c33a55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,77 +73,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Han-Teng Liao: CV &amp; Blog</span>
     </a>
   </div>
@@ -154,15 +96,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../slides/index.html"> 
+    <a class="nav-link" href="../../slides/index.html"> 
 <span class="menu-text">Slides</span></a>
   </li>  
 </ul>
@@ -173,215 +115,86 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Strategy Insights</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Han-Teng Liao </p>
-            </div>
-    </div>
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QUklMjBBZ2VudHM=">AI Agents <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QUklMjBJbmZyYXN0cnVjdHVyZQ==">AI Infrastructure <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2lyY3VsYXIlMjBFY29ub215">Circular Economy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2xvYmFsJTIwQnVzaW5lc3MlMjBTZXJ2aWNl">Global Business Service <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SUVFRSUyMElDRSUyMDIwMjY=">IEEE ICE 2026 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SW50ZXJuYXRpb25hbCUyMERhdGElMjBTcGFjZXM=">International Data Spaces <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVnVGVjaA==">RegTech <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2VtaWNvbmR1Y3Rvcg==">Semiconductor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U21hcnQlMjBGYWJz">Smart Fabs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1NiRA==">SSbD <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VGVjaG5vbG9neSUyMFJvYWRtYXBwaW5n">Technology Roadmapping <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VHJ1c3RlZCUyMEV4ZWN1dGlvbiUyMEVudmlyb25tZW50cw==">Trusted Execution Environments <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHdpbiUyMFRyYW5zaXRpb24=">Twin Transition <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-contribution-bridging-compliance-and-innovation" id="toc-research-contribution-bridging-compliance-and-innovation" class="nav-link active" data-scroll-target="#research-contribution-bridging-compliance-and-innovation">Research Contribution: Bridging Compliance and Innovation</a></li>
+  <li><a href="#acknowledgment-of-review-resources" id="toc-acknowledgment-of-review-resources" class="nav-link" data-scroll-target="#acknowledgment-of-review-resources">Acknowledgment of Review Resources</a></li>
+  <li><a href="#invitation-for-collaboration" id="toc-invitation-for-collaboration" class="nav-link" data-scroll-target="#invitation-for-collaboration">Invitation for Collaboration</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Trustworthy Smart Fabs via Professional Proxies</h1>
+<p class="subtitle lead">Scaling Safe and Sustainable by Design through Industrial Data Spaces</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Smart Fabs</div>
+    <div class="quarto-category">AI Agents</div>
+    <div class="quarto-category">Trusted Execution Environments</div>
+    <div class="quarto-category">International Data Spaces</div>
+    <div class="quarto-category">SSbD</div>
+  </div>
+  </div>
 
-
-
-
-<p>Here I document thoughts on technology roadmapping, global value chains, and socio-technical transitions.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QUklMjBJbmZyYXN0cnVjdHVyZSUyQ0NpcmN1bGFyJTIwRWNvbm9teSUyQ1R3aW4lMjBUcmFuc2l0aW9uJTJDSUVFRSUyMElDRSUyMDIwMjYlMkNTU2JE" data-listing-date-sort="1780531200000" data-listing-file-modified-sort="1781026449524" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
-<div class="thumbnail"><a href="../blog/posts/20260604.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/20260604.html" class="no-external">From ‘Electrons-to-Tokens’ Stacks to ‘Atoms-to-Values’ Circuits</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/20260604.html" class="no-external">A Regenerative Socio-Technical Roadmap for AI Infrastructure within Planetary Boundaries</a>
+<div>
+  <div class="description">
+    Addressing the Data Sovereignty Paradox using role-based autonomous agentic workflows operating within hardware-isolated trust zones.
+  </div>
 </div>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBJbmZyYXN0cnVjdHVyZQ=='); return false;">AI Infrastructure</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Q2lyY3VsYXIlMjBFY29ub215'); return false;">Circular Economy</div>
+<div class="quarto-title-meta">
 
-<div class="listing-category" onclick="window.quartoListingCategory('VHdpbiUyMFRyYW5zaXRpb24='); return false;">Twin Transition</div>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Han-Teng Liao </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 27, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-<div class="listing-category" onclick="window.quartoListingCategory('SUVFRSUyMElDRSUyMDIwMjY='); return false;">IEEE ICE 2026</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('U1NiRA=='); return false;">SSbD</div>
+</header>
 
-</div>
-<div class="delink listing-description"><a href="../blog/posts/20260604.html" class="no-external">
-<p>Reframing artificial intelligence infrastructure as a system-of-systems anchored within a metabolic, resource-parsimonious circuit.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/20260604.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2026
-</div>
-<div class="listing-author">
-Han-Teng Liao
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="R2xvYmFsJTIwQnVzaW5lc3MlMjBTZXJ2aWNlJTJDVHdpbiUyMFRyYW5zaXRpb24lMkNUZWNobm9sb2d5JTIwUm9hZG1hcHBpbmclMkNSZWdUZWNoJTJDSUVFRSUyMElDRSUyMDIwMjY=" data-listing-date-sort="1780358400000" data-listing-file-modified-sort="1781026449524" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
-<div class="thumbnail"><a href="../blog/posts/20260602.html" class="no-external">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<p><strong>FOR IMMEDIATE RELEASE</strong></p>
+<p><strong>Penang, Malaysia – May 27, 2026</strong> – The Safe-and-Sustainable-by-Design (SSbD) Chips Value Chain Services (SCVCS) initiative is pleased to announce that its latest research, titled “<strong>Trustworthy Smart Fabs via Professional Proxies: Scaling Safe and Sustainable by Design (SSbD) through Industrial Data Spaces</strong>,” has been formally accepted for presentation in the proceedings of the 32nd IEEE ICE/ITMC Conference.</p>
+<section id="research-contribution-bridging-compliance-and-innovation" class="level3">
+<h3 class="anchored" data-anchor-id="research-contribution-bridging-compliance-and-innovation">Research Contribution: Bridging Compliance and Innovation</h3>
+<p>The research introduces the “Professional Proxies” framework—a novel approach to managing regulatory governance within semiconductor manufacturing. Authored by Han-Teng Liao (Independent Researcher), Chang-Yi Kao (Soochow University), and Karen Ang (Independent Researcher), the study addresses the critical “Data Sovereignty Paradox” faced by advanced “Smart Fabs”. By implementing autonomous agentic workflows within hardware-isolated Trusted Execution Environments (TEEs), the framework enables fabs to verify sustainability profiles without exposing proprietary manufacturing recipes.</p>
+</section>
+<section id="acknowledgment-of-review-resources" class="level3">
+<h3 class="anchored" data-anchor-id="acknowledgment-of-review-resources">Acknowledgment of Review Resources</h3>
+<p>The authors extend their sincere gratitude to the organizers and the Review Committee of <strong>Special Session [SS04]: Trustworthy Autonomous AI for Digital Transformation</strong>, chaired by Dr.&nbsp;Nahid Farhady Ghalaty, Jordan Hull, and Abhilasha Bhargav-Spantzel (Microsoft). While the team will not be presenting on-site in Porto, the SCVCS initiative deeply values the helpful reviews and critiques provided by this committee. The insights gained from this peer-review process are currently being incorporated into an expanded version of the manuscript, which the team intends to submit for formal journal publication, where the conference and committee’s rigorous contributions will be fully acknowledged.</p>
+</section>
+<section id="invitation-for-collaboration" class="level3">
+<h3 class="anchored" data-anchor-id="invitation-for-collaboration">Invitation for Collaboration</h3>
+<p>The <a href="https://scvcs.footprints.cv/">SCVCS initiative</a> welcomes engagement with industry leaders, academic researchers, and sustainability practitioners to further develop these frameworks for cross-sectoral interoperability and molecule-to-market traceability.</p>
+<p><em>The <a href="https://scvcs.footprints.cv/">SCVCS initiative</a> remains dedicated to advancing the 2026 European Commission SSbD Stakeholder Agenda and the IEEE IRDS roadmaps, ensuring that regulatory compliance serves as a catalyst for industrial innovation in Industry 5.0 ecosystems.</em></p>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/20260602.html" class="no-external">Technology Roadmapping for the Twin Transition in Global Business Services</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/20260602.html" class="no-external">Bridging Green and Digital Strategies via Operational Airlocks</a>
-</div>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('R2xvYmFsJTIwQnVzaW5lc3MlMjBTZXJ2aWNl'); return false;">Global Business Service</div>
+</section>
 
-<div class="listing-category" onclick="window.quartoListingCategory('VHdpbiUyMFRyYW5zaXRpb24='); return false;">Twin Transition</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neSUyMFJvYWRtYXBwaW5n'); return false;">Technology Roadmapping</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVnVGVjaA=='); return false;">RegTech</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SUVFRSUyMElDRSUyMDIwMjY='); return false;">IEEE ICE 2026</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/posts/20260602.html" class="no-external">
-<p>Synthesizing Technology Roadmapping and the ITU innovation toolkit to identify GBS units as strategic operational airlocks for multinational corporations.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/20260602.html" class="no-external">
-<div class="listing-date">
-Jun 2, 2026
-</div>
-<div class="listing-author">
-Han-Teng Liao
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="U2VtaWNvbmR1Y3RvciUyQ1NTYkQlMkNSZWdUZWNoJTJDVGVjaG5vbG9neSUyMFJvYWRtYXBwaW5nJTJDSUVFRSUyMElDRSUyMDIwMjY=" data-listing-date-sort="1780272000000" data-listing-file-modified-sort="1781026449524" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
-<div class="thumbnail"><a href="../blog/posts/20260601.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/20260601.html" class="no-external">Semiconductor Safe and Sustainable by Design (SSbD)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/20260601.html" class="no-external">Architecting a 6-Layer System of Systems for Advanced Manufacturing</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2VtaWNvbmR1Y3Rvcg=='); return false;">Semiconductor</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1NiRA=='); return false;">SSbD</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVnVGVjaA=='); return false;">RegTech</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGVjaG5vbG9neSUyMFJvYWRtYXBwaW5n'); return false;">Technology Roadmapping</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SUVFRSUyMElDRSUyMDIwMjY='); return false;">IEEE ICE 2026</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/posts/20260601.html" class="no-external">
-<p>Announcing a novel six-layer System of Systems architecture integrating AI-driven metrology, supply chain ESG metrics, and federated industrial data spaces.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/20260601.html" class="no-external">
-<div class="listing-date">
-Jun 1, 2026
-</div>
-<div class="listing-author">
-Han-Teng Liao
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="U21hcnQlMjBGYWJzJTJDQUklMjBBZ2VudHMlMkNUcnVzdGVkJTIwRXhlY3V0aW9uJTIwRW52aXJvbm1lbnRzJTJDSW50ZXJuYXRpb25hbCUyMERhdGElMjBTcGFjZXMlMkNTU2JE" data-listing-date-sort="1779840000000" data-listing-file-modified-sort="1781026449523" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
-<div class="thumbnail"><a href="../blog/posts/20260527.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/20260527.html" class="no-external">Trustworthy Smart Fabs via Professional Proxies</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/posts/20260527.html" class="no-external">Scaling Safe and Sustainable by Design through Industrial Data Spaces</a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('U21hcnQlMjBGYWJz'); return false;">Smart Fabs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBBZ2VudHM='); return false;">AI Agents</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VHJ1c3RlZCUyMEV4ZWN1dGlvbiUyMEVudmlyb25tZW50cw=='); return false;">Trusted Execution Environments</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJuYXRpb25hbCUyMERhdGElMjBTcGFjZXM='); return false;">International Data Spaces</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U1NiRA=='); return false;">SSbD</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/posts/20260527.html" class="no-external">
-<p>Addressing the Data Sovereignty Paradox using role-based autonomous agentic workflows operating within hardware-isolated trust zones.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/20260527.html" class="no-external">
-<div class="listing-date">
-May 27, 2026
-</div>
-<div class="listing-author">
-Han-Teng Liao
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

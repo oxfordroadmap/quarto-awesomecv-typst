@@ -1,6 +1,19 @@
 [
   {
+    "listing": "/slides/index.html",
+    "items": [
+      "/slides/decks/IRDS.html",
+      "/slides/decks/SSbD.html",
+      "/slides/decks/STRM.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
-    "items": []
+    "items": [
+      "/blog/posts/20260604.html",
+      "/blog/posts/20260602.html",
+      "/blog/posts/20260601.html",
+      "/blog/posts/20260527.html"
+    ]
   }
 ]

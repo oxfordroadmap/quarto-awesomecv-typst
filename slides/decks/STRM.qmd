@@ -1,0 +1,25 @@
+---
+# File: slides/industry5-roadmap.qmd
+title: "Socio-Technical Roadmapping"
+subtitle: "Industry 5.0 Architectures"
+date: 2026-06-10
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    history: true # Allows browser back-button to work per slide
+    header-includes:
+      - <script src="https://cdn.tailwindcss.com"></script>
+---
+
+## Slide 1: Core Framework
+
+<div class="p-6 bg-zinc-50 border border-zinc-200 rounded-xl">
+  <p class="text-zinc-900 font-mono">Tailwind rules apply cleanly here.</p>
+</div>
+
+---
+
+## Slide 2: Next Steps
+
+- Press 'O' on your keyboard to see the slide grid map.

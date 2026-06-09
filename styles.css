@@ -1,0 +1,45 @@
+/* Position anchor for the hover interaction */
+.welcome-tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden Card Default State */
+.welcome-tooltip-container .welcome-card-overlay {
+  visibility: hidden;
+  opacity: 0;
+  width: 420px;
+  background-color: #ffffff;
+  color: #18181b;
+  text-align: left;
+  border: 1px solid #e4e4e7;
+  border-radius: 10px;
+  padding: 18px;
+  position: absolute;
+  z-index: 1000;
+  top: 110%; /* Sits cleanly just below your subtitle */
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.25s ease-out, transform 0.25s ease-out, visibility 0.25s;
+  pointer-events: none; /* Prevents flickering when moving mouse */
+}
+
+/* Elegant Little Decorative Arrow at the Top of the Card */
+.welcome-tooltip-container .welcome-card-overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #ffffff transparent;
+}
+
+/* Trigger State: Smooth Fade-In and Slight Slide-Up on Mouse Over */
+.welcome-tooltip-container:hover .welcome-card-overlay {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

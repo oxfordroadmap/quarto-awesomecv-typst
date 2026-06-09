@@ -1,0 +1,12 @@
+---
+title: "Presentations & Briefings"
+layout: full
+# We use Quarto's built-in listing engine to auto-generate our deck catalog
+listing:
+  contents: "decks/*.qmd" # Points cleanly into the isolated decks folder
+  type: grid
+  sort: "date desc"
+  fields: [title, subtitle, date]
+---
+
+A collection of interactive slide decks mapping socio-technical systems, global value chains, and industry roadmaps. Click any deck below to launch full-screen presentation mode (press **F** for fullscreen, **O** for overview).
