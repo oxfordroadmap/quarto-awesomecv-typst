@@ -15,16 +15,16 @@ It represents a collective multi-stakeholder consensus engineered by expert repr
 
 ## Many Roadmaps?
 
-Ultimately, the roadmaps operate as the definitive technological baselines for many aspects of semidconductor manufacturing.  They are thus useful for  **evaluating modern fabrication capabilities**[@Ang-2026-ID-286] and **guiding scaling trajectories within global value chains**[@Liao-2026-ICE-DCE].
+Ultimately, the roadmaps operate as the definitive technological baselines for many aspects of semidconductor manufacturing.  They are thus useful for  **evaluating modern fabrication capabilities**[@Liao-2026-ICE-SSbD-Semi] and **guiding scaling trajectories within global value chains**[@Liao-2026-ICE-DCE].
 
 ## EEE IRDS ESHS
-Focusing on sustainability on and around the **semiconductor facilities**, the **Environment, Safety, Health & Sustainability (ESHS)** chapter of the roadmap defines quantitative benchmarks and actionable targets for building climate-resilient fabrication facilities[@Liao-2026-ICE-DCE][@Ang-2026-ID-286]. 
+Focusing on sustainability on and around the **semiconductor facilities**, the **Environment, Safety, Health & Sustainability (ESHS)** chapter of the roadmap defines quantitative benchmarks and actionable targets for building climate-resilient fabrication facilities[@Liao-2026-ICE-DCE][@Liao-2026-ICE-SSbD-Semi]. 
 
 Grounded in facility-monitoring, it outlines critical tracking metrics including freshwater usage, evaporative water losses, hazardous waste generation, and energy consumption factors. However, contemporary reviews identify ongoing technology gaps within the roadmap, particularly regarding real-time chemical intensity tracking, Scope 1 greenhouse gas tool abatement, and Scope 3 supply-chain footprint blind spots.
 
 ## ESHS as Sites of Practice
 
-Semiconductor facilities become important sites of practice and research for smart sustainable manufacturing to integrate best Industry 5.0 with advanced RegTech and FinTech [@Ang-2026-ID-286; @Liao-2026-ID-372].
+Semiconductor facilities become important sites of practice and research for smart sustainable manufacturing to integrate best Industry 5.0 with advanced RegTech and FinTech [@Liao-2026-ICE-SSbD-Semi; @Liao-2026-SSbD-IDS-preprint].
 
 - Maps directly to the Twin Green & Digital Transition.
 - Bridges factory-floor operational data with macro ESG frameworks.
