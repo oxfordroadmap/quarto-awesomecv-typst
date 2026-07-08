@@ -4,7 +4,8 @@ subtitle: "Why Infineon's 'World's Largest' Power Fab Doesn't Settle the AI Powe
 date: 2026-07-07
 categories: [Power Electronics, AI Infrastructure, Semiconductor Industry]
 description: "Infineon's new Dresden fab is being read as proof of industrial leadership in AI-era power semiconductors. A closer look at the grid-to-core power stack suggests that claim is premature."
-bibliography: ../../bibliography/references--Infineon.bib
+bibliography: ../../bibliography/Infineon.bib
+image: ../../assets/img/20100509360DR_Dresden-Klotzsche_K%C3%B6nigsbr%C3%BCcker_Stra%C3%9Fe_180_Qimonda.jpg
 format:
   html:
     toc: true
@@ -15,6 +16,8 @@ On July 3, Infineon opened what it calls the world's largest smart power semicon
 It is not merely a capacity expansion. It is something more consequential: the first test of **whether** a single-site capital bet, made at the peak of an AI capex cycle, can be presented as **securing durable industrial leadership** rather than simply adding capacity into **a market whose demand curve is still unproven**.
 
 Beyond the ribbon-cutting, this opening has effectively reframed Infineon's identity — from **a global diversified power-semiconductor supplier serving automotive, industrial and consumer markets**, into **a company whose investor narrative now runs substantially through a single, AI-driven growth line**. The Dresden fab's guided contribution to that line — roughly €1.5 billion in fiscal 2026, rising to €2.5 billion in fiscal 2027 — has become the number analysts and the German chancellor alike now point to as evidence of European chipmaking's relevance in the AI era, via powering AI data centers and grids [@infineonAIGuidance2026].
+
+![Alt text](../../assets/img/20100509355MDR_Dresden-Klotzsche_K%C3%B6nigsbr%C3%BCcker_Stra%C3%9Fe_180_Qimonda.jpg)
 
 ## Global "virtual fab" approach and Europe's aspirations
 
