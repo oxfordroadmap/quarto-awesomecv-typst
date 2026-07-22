@@ -2,7 +2,8 @@
 title: "The Dresden Bet"
 subtitle: "Why Infineon's 'World's Largest' Power Fab Doesn't Settle the AI Power Race"
 date: 2026-07-07
-categories: [Power Electronics, AI Infrastructure, Semiconductor Industry]
+categories: [AI Infrastructure, Semiconductor Industry]
+keywords: [Power Electronics]
 description: "Infineon's new Dresden fab is being read as proof of industrial leadership in AI-era power semiconductors. A closer look at the grid-to-core power stack suggests that claim is premature."
 bibliography: ../../bibliography/Infineon.bib
 image: ../../assets/img/20100509360DR_Dresden-Klotzsche_K%C3%B6nigsbr%C3%BCcker_Stra%C3%9Fe_180_Qimonda.jpg
