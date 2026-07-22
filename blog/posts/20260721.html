@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Han-Teng Liao">
+<meta name="dcterms.date" content="2026-07-21">
+<meta name="keywords" content="DSA, CBAM, EU Regulation">
+<meta name="description" content="The EU’s record €550 million fine on Alibaba’s AliExpress is the latest data point in a pattern of proactive (if not aggressive) platform enforcement. The same institutional muscle — systemic risk assessment, third-party verification, algorithmic audit trails — is quietly being built for carbon compliance under CBAM, and Taiwan’s semiconductor exporters may be closer to its reach than they think.">
+
+<title>Brussels Just Proved It Can Enforce Compliance at Scale – Han-Teng Liao: CV &amp; Blog</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c98d9d0b3b0a085d3ddf71e6e91476d8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Han-Teng Liao: CV &amp; Blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides/index.html"> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-machine-not-the-fine" id="toc-the-machine-not-the-fine" class="nav-link active" data-scroll-target="#the-machine-not-the-fine">The machine, not the fine</a></li>
+  <li><a href="#the-chips-supply-chains-and-embedded-carbon-emissions" id="toc-the-chips-supply-chains-and-embedded-carbon-emissions" class="nav-link" data-scroll-target="#the-chips-supply-chains-and-embedded-carbon-emissions">The chips, supply chains, and embedded carbon emissions</a></li>
+  <li><a href="#whos-already-paying-for-the-gap" id="toc-whos-already-paying-for-the-gap" class="nav-link" data-scroll-target="#whos-already-paying-for-the-gap">Who’s already paying for the gap</a></li>
+  <li><a href="#why-taiwan-specifically-should-be-paying-attention" id="toc-why-taiwan-specifically-should-be-paying-attention" class="nav-link" data-scroll-target="#why-taiwan-specifically-should-be-paying-attention">Why Taiwan, specifically, should be paying attention</a></li>
+  <li><a href="#the-regtech-and-fintech-opening" id="toc-the-regtech-and-fintech-opening" class="nav-link" data-scroll-target="#the-regtech-and-fintech-opening">The RegTech and FinTech opening</a></li>
+  <li><a href="#the-true-test" id="toc-the-true-test" class="nav-link" data-scroll-target="#the-true-test">The true test</a></li>
+  <li><a href="#where-the-compliance-advantage-could-go" id="toc-where-the-compliance-advantage-could-go" class="nav-link" data-scroll-target="#where-the-compliance-advantage-could-go">Where the compliance advantage could go</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Brussels Just Proved It Can Enforce Compliance at Scale</h1>
+<p class="subtitle lead">Taiwan’s Chipmakers Should Be Watching Closely</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">RegTech</div>
+    <div class="quarto-category">FinTech</div>
+    <div class="quarto-category">Semiconductor Industry</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    The EU’s record €550 million fine on Alibaba’s AliExpress is the latest data point in a pattern of proactive (if not aggressive) platform enforcement. The same institutional muscle — systemic risk assessment, third-party verification, algorithmic audit trails — is quietly being built for carbon compliance under CBAM, and Taiwan’s semiconductor exporters may be closer to its reach than they think.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Han-Teng Liao </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 21, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>DSA, CBAM, EU Regulation</p>
+  </div>
+</div>
+
+</header>
+
+
+<p>On July 20, the European Commission fined Alibaba’s AliExpress €550 million for failing to police counterfeit and unsafe goods on its platform — the largest penalty issued yet under the Digital Services Act (DSA), and the third major DSA enforcement action against a foreign platform in eight months <span class="citation" data-cites="bloomberg2026alibaba">(<a href="#ref-bloomberg2026alibaba" role="doc-biblioref"><span>“Alibaba Fined Record €550 Million by <span>EU</span> for Illegal Sales”</span> 2026</a>)</span>. Alibaba called it disproportionate and vowed to appeal <span class="citation" data-cites="scmp2026alibabaappeal">(<a href="#ref-scmp2026alibabaappeal" role="doc-biblioref"><span>“Alibaba Vows to Appeal <span>US</span>$629m <span>EU</span> Fine for Breaches of Digital Services Act”</span> 2026</a>)</span>. The pattern is set. It won’t be the last such headline.</p>
+<p>It is not merely a fine. It is something more consequential: proof that Brussels has built — and is now willing to use, repeatedly, against companies with no EU domicile — a fully operational enforcement pipeline: systemic risk assessment obligations, mandatory algorithmic transparency, third-party auditing, and fines that scale with turnover rather than with the specifics of any one violation. Temu absorbed €200 million in May for the same category of failure — a systemic risk assessment the Commission judged generic rather than platform-specific <span class="citation" data-cites="ghacks2026temu">(<a href="#ref-ghacks2026temu" role="doc-biblioref"><span>“European Commission Fines <span>Temu</span> €200 Million over Illegal and Unsafe Product Listings Under Digital Services Act”</span> 2026</a>)</span>. Meta is facing potential exposure up to 6% of global turnover over “addictive design,” in a case the Commission itself frames as a new legal theory rather than a one-off complaint <span class="citation" data-cites="techtimes2026meta">(<a href="#ref-techtimes2026meta" role="doc-biblioref"><span>“<span>EU</span> Charges <span>Meta</span> with Addictive Design”</span> 2026</a>)</span>. Three different companies, three different alleged harms, one increasingly standardized enforcement architecture.</p>
+<section id="the-machine-not-the-fine" class="level2">
+<h2 class="anchored" data-anchor-id="the-machine-not-the-fine">The machine, not the fine</h2>
+<p>What should worry — or interest — anyone watching European industrial policy is not the €550 million itself. It is what had to exist <em>before</em> that number could be produced: a mandated systemic-risk-assessment template, a supervisory body empowered to reject a company’s own risk analysis as inadequate, a verification and audit trail sufficient to survive an appeal, and the political will to apply all of it against China’s largest platform companies without visible hesitation. That is regulatory infrastructure, not just a penalty regime. And infrastructure, once built for one purpose, tends to get reused for others.</p>
+<p>As shown in <a href="#fig-dma-hearing" class="quarto-xref">Figure&nbsp;1</a> below, European regulators outlined compliance expectations for global e-commerce and digital service giants.</p>
+<div id="fig-dma-hearing" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dma-hearing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ZbmmR9I-Fec" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>EU Lawmakers to Alibaba: ‘DSA &amp; DMA Rules Apply — Europe Sets the Standards’.</p>
+<section id="key-takeaways" class="level3">
+<h3 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h3>
+<ul>
+<li><strong>Strict Gatekeeper Enforcement:</strong> The DMA targets unfair market practices across designated core platform services.</li>
+<li><strong>Content &amp; Seller Oversight:</strong> Under the DSA, platforms carry heightened obligations to curb counterfeit goods.</li>
+</ul>
+</section>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-dma-hearing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+<p>During its March 31–April 2, 2026 mission to Beijing and Shanghai — the first European Parliament delegation to China in eight years — the Internal Market and Consumer Protection Committee (IMCO), led by Chair Anna Cavazzini and including members Andreas Schwab and Christel Schaldemose, met directly with Alibaba and Shein in Beijing and with Temu in Shanghai to press for compliance with EU product-safety and platform rules <span class="citation" data-cites="eeas2026mepsvisit">(<a href="#ref-eeas2026mepsvisit" role="doc-biblioref">European External Action Service 2026</a>)</span>. Parliament’s own account of the trip describes MEPs stressing that every company, wherever it’s based, has to play by the same EU rules, and that low prices shouldn’t come at the cost of consumer health and safety <span class="citation" data-cites="europarl2026imcohighlights">(<a href="#ref-europarl2026imcohighlights" role="doc-biblioref">European Parliament, Committee on the Internal Market and Consumer Protection 2026</a>)</span>. By Parliament’s count, the visit generated over 130 news articles and roughly 140,000 combined social-media impressions — a visibility level that reads as government-to-government leverage rather than routine committee business <span class="citation" data-cites="europarl2026imcohighlights">(<a href="#ref-europarl2026imcohighlights" role="doc-biblioref">European Parliament, Committee on the Internal Market and Consumer Protection 2026</a>)</span>.</p>
+<p>This systemic-risk-assessment mandate requires a system of systems (SoS) response for corporations to access European markets.</p>
+<p>A “system of systems” response means treating compliance as the point where market systems, global supply chains, consumer-protection and antitrust regulatory regimes, and the ICT infrastructure connecting them all have to interoperate — so a single DSA risk assessment or CBAM emissions filing can’t be built in isolation from the rest.</p>
+</section>
+<section id="the-chips-supply-chains-and-embedded-carbon-emissions" class="level2">
+<h2 class="anchored" data-anchor-id="the-chips-supply-chains-and-embedded-carbon-emissions">The chips, supply chains, and embedded carbon emissions</h2>
+<p>The EU’s Carbon Border Adjustment Mechanism is being built on strikingly similar architecture — mandatory embedded-emissions reporting, third-party verification, default values that penalize the absence of good data, and a phased extension of scope decided centrally by the Commission with member-state sign-off <span class="citation" data-cites="mayerbrown2025cbam">(<a href="#ref-mayerbrown2025cbam" role="doc-biblioref">Geraets 2025</a>)</span>. CBAM entered its definitive, financially binding phase on January 1, 2026. In December 2025 the Commission proposed extending it to roughly 180 additional downstream products, and the Council agreed a general approach on that extension on June 12, 2026, with an annual review mechanism to consider further additions <span class="citation" data-cites="consilium2026council">(<a href="#ref-consilium2026council" role="doc-biblioref">Council of the European Union 2026</a>)</span>. That review mechanism is the detail worth sitting with: it is a standing, institutionalized pathway for scope creep, not a one-time list.</p>
+</section>
+<section id="whos-already-paying-for-the-gap" class="level2">
+<h2 class="anchored" data-anchor-id="whos-already-paying-for-the-gap">Who’s already paying for the gap</h2>
+<p>The compliance cost is not hypothetical. Orgalim’s survey of European technology manufacturers found 11 of 15 assessed products at risk of carbon leakage by 2034, with production costs rising as much as 48% once CBAM and the phaseout of free ETS allowances are fully phased in <span class="citation" data-cites="orgalim2025study">(<a href="#ref-orgalim2025study" role="doc-biblioref">Orgalim and ERM 2025</a>)</span> — and its December 2025 position paper argues the Commission’s downstream package still doesn’t fix the underlying problem for manufacturers who import CBAM-taxed raw materials but compete against finished imports that bypass the levy entirely <span class="citation" data-cites="orgalim2025position">(<a href="#ref-orgalim2025position" role="doc-biblioref">Orgalim 2026</a>)</span>. The OECD’s own modeling confirms the mechanism: CBAM protects upstream sectors from leakage while pushing the cost — and the leakage risk — downstream, onto industries like electronics that use CBAM goods as inputs <span class="citation" data-cites="oecd2025cbam">(<a href="#ref-oecd2025cbam" role="doc-biblioref">Dechezleprêtre et al. 2025</a>)</span>.</p>
+<p>Semiconductors sit just outside today’s scope, but not comfortably so. IEEFA estimates South Korean chip exporters alone could face $588 million in CBAM certificate costs between 2026 and 2034 if semiconductors and their full Scope 1–3 supply chain emissions are added <span class="citation" data-cites="ieefa2025supplychain ieefa2026cbam">(<a href="#ref-ieefa2025supplychain" role="doc-biblioref">Kim 2025</a>, <a href="#ref-ieefa2026cbam" role="doc-biblioref">2026</a>)</span> — and notes that Apple and TSMC have already begun imposing their own supplier decarbonization requirements independent of what Brussels eventually decides <span class="citation" data-cites="solarquarter2026renewables">(<a href="#ref-solarquarter2026renewables" role="doc-biblioref"><span>“South <span>Korea</span> Urged to Accelerate Renewables to Mitigate Rising Supply Chain Carbon Risks, <span>IEEFA</span> Warns”</span> 2025</a>)</span>. SGS’s read on the electronics sector is similar in spirit: mandatory Digital Product Passports will force chipmakers to instrument and disclose embedded emissions well before any formal CBAM inclusion forces the issue <span class="citation" data-cites="sgs2025reimagining">(<a href="#ref-sgs2025reimagining" role="doc-biblioref">SGS Group 2025</a>)</span>. In other words, the compliance obligation is arriving ahead of the legal requirement to comply — driven by customers and supply-chain contracts as much as by Brussels.</p>
+</section>
+<section id="why-taiwan-specifically-should-be-paying-attention" class="level2">
+<h2 class="anchored" data-anchor-id="why-taiwan-specifically-should-be-paying-attention">Why Taiwan, specifically, should be paying attention</h2>
+<p>Here is the uncomfortable adjacency: Taiwan’s semiconductor exporters occupy roughly the same structural position AliExpress and Temu occupied before their fines — a dominant, foreign, systemically important supplier to the EU market, operating under a rulebook that is still being finished, reviewed annually, and enforced by a Commission that has just demonstrated, three times over in eight months, that it will act against exactly this profile of company. CBAM’s enforcement logic is preventive and reporting-based rather than punitive like the DSA’s, and semiconductors are not in the current downstream-extension list, which targets steel- and aluminum-intensive goods first <span class="citation" data-cites="consilium2026council">(<a href="#ref-consilium2026council" role="doc-biblioref">Council of the European Union 2026</a>)</span>.</p>
+<p>But the annual review mechanism, the energy- and chemical-heavy (e.g.&nbsp;PFCs or perfluorocompounds) emissions profile of chip fabrication, and the sheer trade volume involved make semiconductors an obvious candidate for the next extension round — and Taiwan, as the largest single exporter of advanced logic chips into systems ultimately sold in the EU, would be first in line to feel it, alongside South Korea.</p>
+<p>In fact, Taiwan began collecting its Carbon Fee in 2026, and its inaugural Carbon Fee Revenue breakdown shows that the semiconductor sector represents the single largest contributor to the total revenue of NT<span class="math inline">\(4.97 billion, far outpacing other heavy-emitting traditional industries. The pie chart below visualizes the distribution of the collected fees across key industrial sectors (values displayed in millions of NT\)</span>):</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">pie title Taiwan First Carbon Fee Revenue Breakdown (Million NT$)
+    "Semiconductors" : 2200
+    "Electricity Supply" : 635
+    "Steel" : 400
+    "Concrete" : 130
+    "Others (Remaining Sectors)" : 1605
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="the-regtech-and-fintech-opening" class="level2">
+<h2 class="anchored" data-anchor-id="the-regtech-and-fintech-opening">The RegTech and FinTech opening</h2>
+<p>This is where the opportunity sits, and it looks less like carbon policy than like the compliance-software market that grew up around the DSA and GDPR before it. Three gaps stand out. First, <strong>embedded-emissions verification and reporting infrastructure</strong> for companies with no in-house carbon-accounting capability — the same market that produced Persefoni, Watershed, and Sphera for corporate ESG disclosure now has a harder, trade-law-grade version to build: verified, auditable, CBAM-certificate-grade emissions data that can survive a Commission challenge the way Temu’s risk assessment could not. Second, <strong>Digital Product Passport data infrastructure</strong> for electronics specifically — SGS’s own framing of DPP as arriving before CBAM inclusion suggests a multi-year window where being compliance-ready is a competitive differentiator, not just a cost <span class="citation" data-cites="sgs2025reimagining">(<a href="#ref-sgs2025reimagining" role="doc-biblioref">SGS Group 2025</a>)</span>. Third, and least built out today, <strong>counterparty and trade-credit risk pricing</strong> that prices CBAM and carbon-tariff exposure the way IEEFA’s analysis already does qualitatively — a genuine FinTech opening for insurers, trade financiers, and credit-risk desks to underwrite the gap between what a supplier discloses and what the EU will eventually require it to prove.</p>
+</section>
+<section id="the-true-test" class="level2">
+<h2 class="anchored" data-anchor-id="the-true-test">The true test</h2>
+<p>The test, over the next one to two review cycles, is not whether Brussels can fine a platform company — it plainly can, repeatedly, and at scale. It is whether the same institutional machine, applied to embedded emissions instead of content moderation, reaches Taiwan’s semiconductor exporters before the compliance infrastructure to serve them exists. If it does, the fine will look less like a shock and more like the AliExpress case does today: the predictable output of a rulebook and an enforcement apparatus that had been visibly, publicly under construction for years.</p>
+</section>
+<section id="where-the-compliance-advantage-could-go" class="level2">
+<h2 class="anchored" data-anchor-id="where-the-compliance-advantage-could-go">Where the compliance advantage could go</h2>
+<ul>
+<li>TSMC and its European joint venture ESMC are among the few semiconductor players with a head start on CBAM-style reporting, given Taiwan’s own carbon-fee disclosure regime already live at home.</li>
+<li>A Safe-and-Sustainable-by-Design (SSbD) roadmap for fab chemical inputs would put Taiwan’s largest exporter ahead of a compliance requirement Brussels hasn’t finalized yet, rather than reacting to it after the fact.</li>
+<li>Whoever builds credible embedded-emissions verification infrastructure for chips first — RegTech vendors, TSMC/ESMC internally, or European auditors — is likely to set the de facto standard the rest of the industry ends up matching.</li>
+</ul>
+<p>In short, a system of systems (SoS) response is needed for the Safe-and-Sustainable-by-Design production and consumption of the semiconductor chips. Meeting Brussels’ compliance bar increasingly means treating market systems, supply chains, regulatory regimes, and the ICT infrastructure linking them as one interoperating system, not four separate problems. The pattern is set: Compliance for green digital transformation requires investments in RegTech and FinTech.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bloomberg2026alibaba" class="csl-entry" role="listitem">
+<span>“Alibaba Fined Record €550 Million by <span>EU</span> for Illegal Sales.”</span> 2026. In <em>Bloomberg</em>. <a href="https://www.bloomberg.com/news/articles/2026-07-20/alibaba-fined-550-million-for-illegal-sales-in-biggest-dsa-case">https://www.bloomberg.com/news/articles/2026-07-20/alibaba-fined-550-million-for-illegal-sales-in-biggest-dsa-case</a>.
+</div>
+<div id="ref-scmp2026alibabaappeal" class="csl-entry" role="listitem">
+<span>“Alibaba Vows to Appeal <span>US</span>$629m <span>EU</span> Fine for Breaches of Digital Services Act.”</span> 2026. In <em>South China Morning Post</em>. <a href="https://www.scmp.com/tech/policy/article/3361255/alibaba-vows-appeal-us629m-eu-fine-breaches-digital-services-act">https://www.scmp.com/tech/policy/article/3361255/alibaba-vows-appeal-us629m-eu-fine-breaches-digital-services-act</a>.
+</div>
+<div id="ref-consilium2026council" class="csl-entry" role="listitem">
+Council of the European Union. 2026. <em>Council Moves to Strengthen the <span>EU</span>’s Carbon Border Adjustment Mechanism</em>. <a href="https://www.consilium.europa.eu/en/press/press-releases/2026/06/12/council-moves-to-strengthen-the-eu-s-carbon-border-adjustment-mechanism/">https://www.consilium.europa.eu/en/press/press-releases/2026/06/12/council-moves-to-strengthen-the-eu-s-carbon-border-adjustment-mechanism/</a>.
+</div>
+<div id="ref-oecd2025cbam" class="csl-entry" role="listitem">
+Dechezleprêtre, Antoine, Antton Haramboure, Clara Kögel, Guy Lalanne, and Norihiko Yamano. 2025. <em>Carbon Border Adjustments: The Potential Effects of the <span>EU CBAM</span> Along the Supply Chain</em>. 2025/02. OECD Science, Technology; Industry Working Papers. <a href="https://doi.org/10.1787/e8c3d060-en">https://doi.org/10.1787/e8c3d060-en</a>.
+</div>
+<div id="ref-techtimes2026meta" class="csl-entry" role="listitem">
+<span>“<span>EU</span> Charges <span>Meta</span> with Addictive Design: Infinite Scroll Violates <span>DSA</span> Health Rules.”</span> 2026. In <em>Tech Times</em>. <a href="https://www.techtimes.com/articles/320180/20260711/eu-charges-meta-addictive-design-infinite-scroll-violates-dsa-health-rules.htm">https://www.techtimes.com/articles/320180/20260711/eu-charges-meta-addictive-design-infinite-scroll-violates-dsa-health-rules.htm</a>.
+</div>
+<div id="ref-ghacks2026temu" class="csl-entry" role="listitem">
+<span>“European Commission Fines <span>Temu</span> €200 Million over Illegal and Unsafe Product Listings Under Digital Services Act.”</span> 2026. In <em>gHacks Tech News</em>. <a href="https://www.ghacks.net/2026/05/31/european-commission-fines-temu-e200-million-over-illegal-and-unsafe-product-listings-under-digital-services-act/">https://www.ghacks.net/2026/05/31/european-commission-fines-temu-e200-million-over-illegal-and-unsafe-product-listings-under-digital-services-act/</a>.
+</div>
+<div id="ref-eeas2026mepsvisit" class="csl-entry" role="listitem">
+European External Action Service. 2026. <em><span>MEPs</span> Travel to <span>China</span> for First Visit in Eight Years to Focus on Digital Economy</em>. <a href="https://eeas.europa.eu/delegations/china/meps-travel-china-first-visit-eight-years-focus-digital-economy_en">https://eeas.europa.eu/delegations/china/meps-travel-china-first-visit-eight-years-focus-digital-economy_en</a>.
+</div>
+<div id="ref-europarl2026imcohighlights" class="csl-entry" role="listitem">
+European Parliament, Committee on the Internal Market and Consumer Protection. 2026. <em><span>IMCO</span> in <span>China</span>: <span>MEPs</span> Push for Safer e-Commerce and Fair Competition</em>. <a href="https://www.europarl.europa.eu/committees/en/imco/home/highlights">https://www.europarl.europa.eu/committees/en/imco/home/highlights</a>.
+</div>
+<div id="ref-mayerbrown2025cbam" class="csl-entry" role="listitem">
+Geraets, Dylan. 2025. <span>“European Commission Issues <span>CBAM</span> Operational Rules and Proposes Downstream Extension of the <span>CBAM</span> Scope.”</span> In <em>Mayer Brown Legal Insights</em>. <a href="https://www.mayerbrown.com/en/insights/publications/2025/12/european-commission-issues-cbam-operational-rules-and-proposes-downstream-extension-of-the-cbam-scope">https://www.mayerbrown.com/en/insights/publications/2025/12/european-commission-issues-cbam-operational-rules-and-proposes-downstream-extension-of-the-cbam-scope</a>.
+</div>
+<div id="ref-ieefa2025supplychain" class="csl-entry" role="listitem">
+Kim, Michelle (Chaewon). 2025. <span>“Navigating Supply Chain Carbon Risks in <span>South Korea</span>.”</span> In <em>IEEFA</em>. <a href="https://ieefa.org/resources/navigating-supply-chain-carbon-risks-south-korea">https://ieefa.org/resources/navigating-supply-chain-carbon-risks-south-korea</a>.
+</div>
+<div id="ref-ieefa2026cbam" class="csl-entry" role="listitem">
+Kim, Michelle (Chaewon). 2026. <span>“Europe’s <span>CBAM</span> Raises Supply Chain Carbon Risks for <span>South Korean</span> Technology Industries.”</span> In <em>IEEFA</em>. <a href="https://ieefa.org/resources/europes-cbam-raises-supply-chain-carbon-risks-south-korean-technology-industries">https://ieefa.org/resources/europes-cbam-raises-supply-chain-carbon-risks-south-korean-technology-industries</a>.
+</div>
+<div id="ref-orgalim2025position" class="csl-entry" role="listitem">
+Orgalim. 2026. <em>Reform <span>CBAM</span> to Secure <span>Europe</span>’s Competitiveness: Orgalim Position on the December 2025 <span>CBAM</span> Legislative Package</em>. <a href="https://orgalim.eu/wp-content/uploads/Orgalim-position-CBAM-December-2025-legislative-package-.pdf">https://orgalim.eu/wp-content/uploads/Orgalim-position-CBAM-December-2025-legislative-package-.pdf</a>.
+</div>
+<div id="ref-orgalim2025study" class="csl-entry" role="listitem">
+Orgalim, and ERM. 2025. <em><span>EU</span> Carbon Border Adjustment Mechanism: Assessing Impacts on <span>Europe</span>’s Technology Industries</em>. <a href="https://orgalim.eu/wp-content/uploads/EU-Carbon-Border-Adjustment-Mechanism-study-from-Orgalim.pdf">https://orgalim.eu/wp-content/uploads/EU-Carbon-Border-Adjustment-Mechanism-study-from-Orgalim.pdf</a>.
+</div>
+<div id="ref-sgs2025reimagining" class="csl-entry" role="listitem">
+SGS Group. 2025. <em>Re-Imagining the Electronics Industry Thru <span>EU</span>’s <span>CBAM</span> &amp; <span>ESPR</span></em>. <a href="https://ticmall.sgs.com/en/blog_details/ee-knowledge-sharing-re-imagining-the-electronics-industry-thru-eu-s-cbam-espr">https://ticmall.sgs.com/en/blog_details/ee-knowledge-sharing-re-imagining-the-electronics-industry-thru-eu-s-cbam-espr</a>.
+</div>
+<div id="ref-solarquarter2026renewables" class="csl-entry" role="listitem">
+<span>“South <span>Korea</span> Urged to Accelerate Renewables to Mitigate Rising Supply Chain Carbon Risks, <span>IEEFA</span> Warns.”</span> 2025. In <em>SolarQuarter</em>. <a href="https://solarquarter.com/2025/12/01/south-korea-urged-to-accelerate-renewables-to-mitigate-rising-supply-chain-carbon-risks-ieefa-warns/">https://solarquarter.com/2025/12/01/south-korea-urged-to-accelerate-renewables-to-mitigate-rising-supply-chain-carbon-risks-ieefa-warns/</a>.
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

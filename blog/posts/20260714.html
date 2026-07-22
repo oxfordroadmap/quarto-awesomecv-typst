@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Han-Teng Liao">
+<meta name="dcterms.date" content="2026-07-07">
+<meta name="keywords" content="Power Electronics">
+<meta name="description" content="Infineon’s new Dresden fab is being read as proof of industrial leadership in AI-era power semiconductors. A closer look at the grid-to-core power stack suggests that claim is premature.">
 
-<title>Presentations &amp; Briefings – Han-Teng Liao: CV &amp; Blog</title>
+<title>The Dresden Bet – Han-Teng Liao: CV &amp; Blog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,25 +30,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c98d9d0b3b0a085d3ddf71e6e91476d8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c98d9d0b3b0a085d3ddf71e6e91476d8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,67 +74,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -142,7 +86,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Han-Teng Liao: CV &amp; Blog</span>
     </a>
   </div>
@@ -153,15 +97,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../slides/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../slides/index.html"> 
 <span class="menu-text">Slides</span></a>
   </li>  
 </ul>
@@ -175,79 +119,79 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#title-the-carbon-border-for-chips" id="toc-title-the-carbon-border-for-chips" class="nav-link active" data-scroll-target="#title-the-carbon-border-for-chips">title: “The Carbon Border for Chips”</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentations &amp; Briefings</h1>
-</div>
+<h1 class="title">The Dresden Bet</h1>
+<p class="subtitle lead">Why Infineon’s ‘World’s Largest’ Power Fab Doesn’t Settle the AI Power Race</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">AI Infrastructure</div>
+    <div class="quarto-category">Semiconductor Industry</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Infineon’s new Dresden fab is being read as proof of industrial leadership in AI-era power semiconductors. A closer look at the grid-to-core power stack suggests that claim is premature.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Han-Teng Liao </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 7, 2026</p>
+    </div>
+  </div>
   
     
   </div>
   
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Power Electronics</p>
+  </div>
+</div>
 
 </header>
 
 
-<p>A collection of interactive slide decks mapping socio-technical systems, global value chains, and industry roadmaps. Click any deck below to launch full-screen presentation mode (press <strong>F</strong> for fullscreen, <strong>O</strong> for overview).</p>
+<hr>
+<section id="title-the-carbon-border-for-chips" class="level2">
+<h2 class="anchored" data-anchor-id="title-the-carbon-border-for-chips">title: “The Carbon Border for Chips”</h2>
+<p>subtitle: “Why the EU CBAM’s Downstream Ripples Will Reshape the Semiconductor Supply Chain” date: 2026-07-14 categories: [Semiconductor Industry, Supply Chain, Environmental Policy] description: “The EU Carbon Border Adjustment Mechanism entered its definitive tariff phase. While silicon chips remain outside the direct scope, its downstream economic ripples are already altering semiconductor trade flows.” bibliography: ../../bibliography/CBAM.bib image: ../../assets/img/20260714_EU_CBAM_Semiconductors.jpg format: html: toc: true On January 1, the EU Carbon Border Adjustment Mechanism (CBAM) officially crossed from its transitional reporting phase into its definitive tariff-imposing era. Importers of carbon-intensive raw materials must now purchase CBAM certificates to bridge the financial gap between the EU Emissions Trading System (ETS) and foreign carbon pricing. It is not merely a climate tax. It is something more consequential: the first test of whether a regional trade policy, built to protect heavy domestic industry, can be applied to complex global technology supply chains without triggering massive, unintended downstream disruptions into sectors whose regulatory exposure is still unmapped. Beyond the legislative text, this implementation has effectively reframed the semiconductor industry’s risk horizon — from a sector primarily managing raw material scarcity and geopolitical bottlenecks, into one whose cost structure now runs substantially through carbon accounting lines. The financial exposure of global tech hubs supplying the EU — with South Korea’s technology sector alone facing an estimated USD 588 million in cumulative CBAM certificate costs between 2026 and 2034 under high-ETS pricing scenarios [1] — has become the number analysts and trade ministries point to as evidence that carbon borders are no longer a localized steel-and-cement issue. ## Global “virtual fab” approach and Europe’s aspirations This bet on carbon borders matters far beyond Brussels or Strasbourg. The semiconductor industry operates on a hyper-globalized “virtual fab” model where a single chip crosses multiple national borders for raw silicon creation, fabrication, packaging, and testing before final assembly. This multi-site architecture, which links manufacturing clusters in Europe, Taiwan, Malaysia, and the United States, relies on friction-free trade to sustain razor-thin margins on high-volume components. The implementation of CBAM is being read, implicitly, as a referendum on whether Europe’s green industrial policy — carbon tariffs, open strategic autonomy, and strict supply chain compliance — can successfully de-carbonize industrial inputs without crippling the competitive position of its own technology sector. If CBAM forces global chipmakers to rapidly decarbonize their energy mixes, it becomes the model case for global environmental regulation. If it doesn’t, it becomes the cautionary one. ## Just-in-time or overcapacity? Here, however, is the uncomfortable truth EU policymakers and tech firms must confront: keeping semiconductors out of the “direct scope” does not translate cleanly into “insulates the industry from cost” — for three key reasons. First, the arithmetic of what’s actually being measured. CBAM certificates measure direct embedded emissions, but the tech sector’s exposure is overwhelmingly indirect. While upstream raw inputs like the aluminum and steel used in advanced electronic enclosures and chassis are directly taxed today, the massive scope of perfluorocarbons (PFCs) and high electricity consumption required in cleanroom fabrication remains un-levied. Industry data suggests that carbon tracking is currently supply-limited rather than demand-capped, with semiconductor firms struggling to acquire verified Scope 1 and Scope 2 data from fragmented tier-2 and tier-3 component suppliers. This creates a favorable signal for compliance software providers — but it is a claim about tracking capabilities, not a guarantee that supply chains can avoid carbon-related cost penalties. Second, the downstream exposure. The current CBAM structure creates an acute structural vulnerability known as “downstream carbon leakage”. European electronics manufacturers are put at an immediate disadvantage because they must import CBAM-taxed raw metals for local assembly, whereas foreign competitors importing pre-assembled electronic sub-assemblies or finished silicon chips into the EU bypass the tariff completely. This regulatory blind spot transforms a 5 billion euro raw material market into a structural headwind for European electronics manufacturing. A fixed carbon tariff on raw inputs must be absorbed by the domestic manufacturer regardless of whether the final electronic product faces a soft or strong consumer market in a given quarter. Third, the competitive-set question. The European Commission is already auditing sectors for the scheduled 2030 and 2034 scope extensions, with semiconductors sitting as a primary target for inclusion. This looming expansion has triggered asymmetrical policy responses globally. Taiwan’s economic ministries are actively structuring localized carbon fee systems to offset EU penalties, while South Korean conglomerates face disproportionate counterparty risks due to their reliance on fossil-fuel-heavy domestic grids. Meanwhile, US power semiconductor suppliers claim a structurally insulated position, leveraging domestic tax credits under the Inflation Reduction Act to build low-carbon fabrication footprints ahead of European enforcement. In other words: no region in this field has yet proven the durability of their trade position under numbers that will survive the next wave of scope expansions. ## The “grid-to-core” story The intersection of carbon accounting and hardware engineering is most visible in the emerging “grid-to-core” effort to redesign AI data center power delivery. Today, power typically enters a data center as medium-voltage AC, moving through multiple inefficient conversion stages that cap system efficiency. The 800V DC architectures now being pursued by hyperscalers collapse that chain into fewer stages, elevating system efficiency and directly lowering the operational carbon footprint of the facility. This structural overhaul is not one regulatory challenge but at least three layered ones:</p>
+<ol type="1">
+<li>Discrete power devices and modules — silicon, SiC, and GaN switches that optimize voltage conversion efficiency. This is the layer where global chipmakers compete directly, and where tracking the embedded emissions of raw manufacturing inputs—such as chemical gasses and silicon wafers—will become mandatory under upcoming digital product passport mandates.</li>
+<li>Solid-state transformers (SSTs) — a new device category replacing conventional iron-core transformers with semiconductor-based power electronics. These systems reduce energy losses, directly mitigating the Scope 2 electricity emissions that the EU intends to pull into future CBAM calculations.</li>
+<li>Systems and rack integration — the layer that assembles chips, power racks, and liquid cooling into deployable infrastructure. Compliance at this level requires combining multiple raw material carbon certificates into a single product footprint, shifting the competitive advantage toward firms with fully digitized, transparent supply chains.</li>
+</ol>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1784689041328" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
-<a href="../slides/decks/IRDS.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What is IEEE IRDS?
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1784689041328" data-listing-reading-time-sort="2" data-listing-word-count-sort="333">
-<a href="../slides/decks/SSbD.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What is Safe and Sustainable by Design (SSbD)?
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1781049600000" data-listing-file-modified-sort="1784689041328" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<a href="../slides/decks/STRM.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Socio-Technical Roadmapping
-</h5>
-<div class="card-subtitle listing-subtitle">
-Industry 5.0 Architectures
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jun 10, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
