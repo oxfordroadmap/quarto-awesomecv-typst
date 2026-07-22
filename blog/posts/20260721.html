@@ -11,7 +11,7 @@
 <meta name="keywords" content="DSA, CBAM, EU Regulation">
 <meta name="description" content="The EU’s record €550 million fine on Alibaba’s AliExpress is the latest data point in a pattern of proactive (if not aggressive) platform enforcement. The same institutional muscle — systemic risk assessment, third-party verification, algorithmic audit trails — is quietly being built for carbon compliance under CBAM, and Taiwan’s semiconductor exporters may be closer to its reach than they think.">
 
-<title>Brussels Just Proved It Can Enforce Compliance at Scale – Han-Teng Liao: CV &amp; Blog</title>
+<title>Brussels Proved It Can Enforce Compliance at Scale – Han-Teng Liao: CV &amp; Blog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -97,35 +97,6 @@ div.csl-indent {
 <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -191,7 +162,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Brussels Just Proved It Can Enforce Compliance at Scale</h1>
+<h1 class="title">Brussels Proved It Can Enforce Compliance at Scale</h1>
 <p class="subtitle lead">Taiwan’s Chipmakers Should Be Watching Closely</p>
   <div class="quarto-categories">
     <div class="quarto-category">RegTech</div>
@@ -251,8 +222,8 @@ window.Quarto = {
 <section id="key-takeaways" class="level3">
 <h3 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h3>
 <ul>
-<li><strong>Strict Gatekeeper Enforcement:</strong> The DMA targets unfair market practices across designated core platform services.</li>
-<li><strong>Content &amp; Seller Oversight:</strong> Under the DSA, platforms carry heightened obligations to curb counterfeit goods.</li>
+<li><strong>Gatekeeper Enforcement:</strong> The DMA targets unfair market practices across designated core platform services.</li>
+<li><strong>Content &amp; Seller Oversight:</strong> Under the DSA, platforms carry obligations to curb counterfeit goods.</li>
 </ul>
 </section>
 </div>
@@ -272,24 +243,24 @@ Figure&nbsp;1
 <section id="whos-already-paying-for-the-gap" class="level2">
 <h2 class="anchored" data-anchor-id="whos-already-paying-for-the-gap">Who’s already paying for the gap</h2>
 <p>The compliance cost is not hypothetical. Orgalim’s survey of European technology manufacturers found 11 of 15 assessed products at risk of carbon leakage by 2034, with production costs rising as much as 48% once CBAM and the phaseout of free ETS allowances are fully phased in <span class="citation" data-cites="orgalim2025study">(<a href="#ref-orgalim2025study" role="doc-biblioref">Orgalim and ERM 2025</a>)</span> — and its December 2025 position paper argues the Commission’s downstream package still doesn’t fix the underlying problem for manufacturers who import CBAM-taxed raw materials but compete against finished imports that bypass the levy entirely <span class="citation" data-cites="orgalim2025position">(<a href="#ref-orgalim2025position" role="doc-biblioref">Orgalim 2026</a>)</span>. The OECD’s own modeling confirms the mechanism: CBAM protects upstream sectors from leakage while pushing the cost — and the leakage risk — downstream, onto industries like electronics that use CBAM goods as inputs <span class="citation" data-cites="oecd2025cbam">(<a href="#ref-oecd2025cbam" role="doc-biblioref">Dechezleprêtre et al. 2025</a>)</span>.</p>
-<p>Semiconductors sit just outside today’s scope, but not comfortably so. IEEFA estimates South Korean chip exporters alone could face $588 million in CBAM certificate costs between 2026 and 2034 if semiconductors and their full Scope 1–3 supply chain emissions are added <span class="citation" data-cites="ieefa2025supplychain ieefa2026cbam">(<a href="#ref-ieefa2025supplychain" role="doc-biblioref">Kim 2025</a>, <a href="#ref-ieefa2026cbam" role="doc-biblioref">2026</a>)</span> — and notes that Apple and TSMC have already begun imposing their own supplier decarbonization requirements independent of what Brussels eventually decides <span class="citation" data-cites="solarquarter2026renewables">(<a href="#ref-solarquarter2026renewables" role="doc-biblioref"><span>“South <span>Korea</span> Urged to Accelerate Renewables to Mitigate Rising Supply Chain Carbon Risks, <span>IEEFA</span> Warns”</span> 2025</a>)</span>. SGS’s read on the electronics sector is similar in spirit: mandatory Digital Product Passports will force chipmakers to instrument and disclose embedded emissions well before any formal CBAM inclusion forces the issue <span class="citation" data-cites="sgs2025reimagining">(<a href="#ref-sgs2025reimagining" role="doc-biblioref">SGS Group 2025</a>)</span>. In other words, the compliance obligation is arriving ahead of the legal requirement to comply — driven by customers and supply-chain contracts as much as by Brussels.</p>
+<p>Semiconductors sit just outside today’s scope, but not comfortably so. IEEFA estimates South Korean chip exporters alone could face $588 million in CBAM certificate costs between 2026 and 2034 if semiconductors and their full Scope 1–3 supply chain emissions are added <span class="citation" data-cites="ieefa2025supplychain ieefa2026cbam">(<a href="#ref-ieefa2025supplychain" role="doc-biblioref">Kim 2025</a>, <a href="#ref-ieefa2026cbam" role="doc-biblioref">2026</a>)</span> — and notes that Apple and TSMC have already begun imposing their own supplier decarbonization requirements independent of what Brussels eventually decides <span class="citation" data-cites="solarquarter2026renewables">(<a href="#ref-solarquarter2026renewables" role="doc-biblioref">Kavitha 2025</a>)</span>. SGS’s read on the electronics sector is similar in spirit: mandatory Digital Product Passports will force chipmakers to instrument and disclose embedded emissions well before any formal CBAM inclusion forces the issue <span class="citation" data-cites="sgs2025reimagining">(<a href="#ref-sgs2025reimagining" role="doc-biblioref">SGS Group 2025</a>)</span>. In other words, the compliance obligation is arriving ahead of the legal requirement to comply — driven by customers and supply-chain contracts as much as by Brussels.</p>
 </section>
 <section id="why-taiwan-specifically-should-be-paying-attention" class="level2">
 <h2 class="anchored" data-anchor-id="why-taiwan-specifically-should-be-paying-attention">Why Taiwan, specifically, should be paying attention</h2>
 <p>Here is the uncomfortable adjacency: Taiwan’s semiconductor exporters occupy roughly the same structural position AliExpress and Temu occupied before their fines — a dominant, foreign, systemically important supplier to the EU market, operating under a rulebook that is still being finished, reviewed annually, and enforced by a Commission that has just demonstrated, three times over in eight months, that it will act against exactly this profile of company. CBAM’s enforcement logic is preventive and reporting-based rather than punitive like the DSA’s, and semiconductors are not in the current downstream-extension list, which targets steel- and aluminum-intensive goods first <span class="citation" data-cites="consilium2026council">(<a href="#ref-consilium2026council" role="doc-biblioref">Council of the European Union 2026</a>)</span>.</p>
 <p>But the annual review mechanism, the energy- and chemical-heavy (e.g.&nbsp;PFCs or perfluorocompounds) emissions profile of chip fabrication, and the sheer trade volume involved make semiconductors an obvious candidate for the next extension round — and Taiwan, as the largest single exporter of advanced logic chips into systems ultimately sold in the EU, would be first in line to feel it, alongside South Korea.</p>
-<p>In fact, Taiwan began collecting its Carbon Fee in 2026, and its inaugural Carbon Fee Revenue breakdown shows that the semiconductor sector represents the single largest contributor to the total revenue of NT<span class="math inline">\(4.97 billion, far outpacing other heavy-emitting traditional industries. The pie chart below visualizes the distribution of the collected fees across key industrial sectors (values displayed in millions of NT\)</span>):</p>
+<p>In fact, Taiwan began collecting its Carbon Fee in 2026, and its inaugural Carbon Fee Revenue breakdown shows that the semiconductor sector represents the single largest contributor to the total revenue of NT $4.97 billion (New Taiwan Dollars, TWD) , far outpacing other heavy-emitting traditional industries. The pie chart below visualizes the distribution of the collected fees across key industrial sectors (values displayed in TWD millions ):</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">pie title Taiwan First Carbon Fee Revenue Breakdown (Million NT$)
-    "Semiconductors" : 2200
-    "Electricity Supply" : 635
-    "Steel" : 400
     "Concrete" : 130
+    "Steel" : 400
+    "Electricity Supply" : 635
     "Others (Remaining Sectors)" : 1605
+    "Semiconductors" : 2200
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -299,7 +270,11 @@ Figure&nbsp;1
 </section>
 <section id="the-regtech-and-fintech-opening" class="level2">
 <h2 class="anchored" data-anchor-id="the-regtech-and-fintech-opening">The RegTech and FinTech opening</h2>
-<p>This is where the opportunity sits, and it looks less like carbon policy than like the compliance-software market that grew up around the DSA and GDPR before it. Three gaps stand out. First, <strong>embedded-emissions verification and reporting infrastructure</strong> for companies with no in-house carbon-accounting capability — the same market that produced Persefoni, Watershed, and Sphera for corporate ESG disclosure now has a harder, trade-law-grade version to build: verified, auditable, CBAM-certificate-grade emissions data that can survive a Commission challenge the way Temu’s risk assessment could not. Second, <strong>Digital Product Passport data infrastructure</strong> for electronics specifically — SGS’s own framing of DPP as arriving before CBAM inclusion suggests a multi-year window where being compliance-ready is a competitive differentiator, not just a cost <span class="citation" data-cites="sgs2025reimagining">(<a href="#ref-sgs2025reimagining" role="doc-biblioref">SGS Group 2025</a>)</span>. Third, and least built out today, <strong>counterparty and trade-credit risk pricing</strong> that prices CBAM and carbon-tariff exposure the way IEEFA’s analysis already does qualitatively — a genuine FinTech opening for insurers, trade financiers, and credit-risk desks to underwrite the gap between what a supplier discloses and what the EU will eventually require it to prove.</p>
+<p>This is where the opportunity lies, and it looks less like carbon policy than like the compliance-software market that grew up around the DSA and GDPR before it.</p>
+<p>Three gaps stand out.</p>
+<p>First, <strong>embedded-emissions verification and reporting infrastructure</strong> for companies with no in-house carbon-accounting capability — the same market that produced Persefoni, Watershed, and Sphera for corporate ESG disclosure now has a harder, trade-law-grade version to build: verified, auditable, CBAM-certificate-grade emissions data that can survive a Commission challenge the way Temu’s risk assessment could not.</p>
+<p>Second, <strong>Digital Product Passport data infrastructure</strong> for electronics specifically — SGS’s own framing of DPP as arriving before CBAM inclusion suggests a multi-year window where being compliance-ready is a competitive differentiator, not just a cost <span class="citation" data-cites="sgs2025reimagining">(<a href="#ref-sgs2025reimagining" role="doc-biblioref">SGS Group 2025</a>)</span>.</p>
+<p>Third, and least built out today, <strong>counterparty and trade-credit risk pricing</strong> that prices CBAM and carbon-tariff exposure the way IEEFA’s analysis already does qualitatively — a genuine FinTech opening for insurers, trade financiers, and credit-risk desks to underwrite the gap between what a supplier discloses and what the EU will eventually require it to prove.</p>
 </section>
 <section id="the-true-test" class="level2">
 <h2 class="anchored" data-anchor-id="the-true-test">The true test</h2>
@@ -344,6 +319,9 @@ European Parliament, Committee on the Internal Market and Consumer Protection. 2
 <div id="ref-mayerbrown2025cbam" class="csl-entry" role="listitem">
 Geraets, Dylan. 2025. <span>“European Commission Issues <span>CBAM</span> Operational Rules and Proposes Downstream Extension of the <span>CBAM</span> Scope.”</span> In <em>Mayer Brown Legal Insights</em>. <a href="https://www.mayerbrown.com/en/insights/publications/2025/12/european-commission-issues-cbam-operational-rules-and-proposes-downstream-extension-of-the-cbam-scope">https://www.mayerbrown.com/en/insights/publications/2025/12/european-commission-issues-cbam-operational-rules-and-proposes-downstream-extension-of-the-cbam-scope</a>.
 </div>
+<div id="ref-solarquarter2026renewables" class="csl-entry" role="listitem">
+Kavitha. 2025. <span>“South <span>Korea</span> Urged to Accelerate Renewables to Mitigate Rising Supply Chain Carbon Risks, <span>IEEFA</span> Warns.”</span> In <em>SolarQuarter</em>. <a href="https://solarquarter.com/2025/12/01/south-korea-urged-to-accelerate-renewables-to-mitigate-rising-supply-chain-carbon-risks-ieefa-warns/">https://solarquarter.com/2025/12/01/south-korea-urged-to-accelerate-renewables-to-mitigate-rising-supply-chain-carbon-risks-ieefa-warns/</a>.
+</div>
 <div id="ref-ieefa2025supplychain" class="csl-entry" role="listitem">
 Kim, Michelle (Chaewon). 2025. <span>“Navigating Supply Chain Carbon Risks in <span>South Korea</span>.”</span> In <em>IEEFA</em>. <a href="https://ieefa.org/resources/navigating-supply-chain-carbon-risks-south-korea">https://ieefa.org/resources/navigating-supply-chain-carbon-risks-south-korea</a>.
 </div>
@@ -358,9 +336,6 @@ Orgalim, and ERM. 2025. <em><span>EU</span> Carbon Border Adjustment Mechanism: 
 </div>
 <div id="ref-sgs2025reimagining" class="csl-entry" role="listitem">
 SGS Group. 2025. <em>Re-Imagining the Electronics Industry Thru <span>EU</span>’s <span>CBAM</span> &amp; <span>ESPR</span></em>. <a href="https://ticmall.sgs.com/en/blog_details/ee-knowledge-sharing-re-imagining-the-electronics-industry-thru-eu-s-cbam-espr">https://ticmall.sgs.com/en/blog_details/ee-knowledge-sharing-re-imagining-the-electronics-industry-thru-eu-s-cbam-espr</a>.
-</div>
-<div id="ref-solarquarter2026renewables" class="csl-entry" role="listitem">
-<span>“South <span>Korea</span> Urged to Accelerate Renewables to Mitigate Rising Supply Chain Carbon Risks, <span>IEEFA</span> Warns.”</span> 2025. In <em>SolarQuarter</em>. <a href="https://solarquarter.com/2025/12/01/south-korea-urged-to-accelerate-renewables-to-mitigate-rising-supply-chain-carbon-risks-ieefa-warns/">https://solarquarter.com/2025/12/01/south-korea-urged-to-accelerate-renewables-to-mitigate-rising-supply-chain-carbon-risks-ieefa-warns/</a>.
 </div>
 </div>
 
