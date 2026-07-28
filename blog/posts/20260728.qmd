@@ -36,7 +36,11 @@ This is also, not coincidentally, the fifth and sixth layer of a six-layer Safe 
 
 ## It plays out differently by region
 
-The cost of doing nothing isn't abstract, either. A fab that can't produce verifiable, lot-level carbon and chemical data doesn't get a discount for good intentions — it gets assessed at CBAM's default penalty benchmark, calculated on the assumption that it's among the dirtiest producers in its category. Verified telemetry isn't just good practice at that point; it's the only way to avoid paying for a footprint you don't actually have.
+A fab that can't produce verifiable, lot-level carbon and chemical data doesn't get a discount for good intentions. The exposure today runs through the CBAM goods it buys, not the chips it makes — steel, aluminum, and electricity — and for those inputs, no verified data means falling back to CBAM's default emissions values, calculated on the assumption that the producer is among the dirtiest in its category. 
+
+As CBAM's product list extends further downstream, that same logic becomes a direct risk for the fab's own output, not just its supply chain. 
+
+Effectively, the regulation assumes the worst about the fab's carbon footprint unless someone proves otherwise.
 
 And this isn't one problem with one shape:
 
