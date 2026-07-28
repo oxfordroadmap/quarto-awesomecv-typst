@@ -1,0 +1,57 @@
+---
+title: "Why Chip Fabs Can't Keep Yield and EHS Systems Apart Much Longer"
+subtitle: "China, Japan, Taiwan, Malaysia, and others Must Prepare"
+author:
+  - name: "Han-Teng Liao"
+date: 2026-07-28
+categories: [RegTech, Semiconductor Industry]
+keywords: [DPP, CBAM, EU Regulation]
+description: "CBAM, the Digital Product Passport, and PFAS rules are quietly turning cleanroom telemetry into a trade-compliance problem."
+bibliography: ../../bibliography/CBAM_RegTech-Yield.bib
+image: ../../assets/img/2024_IRDS-ESHS-ESSF.jpg
+format:
+  html:
+    toc: true
+---
+
+For twenty years, the fab floor has run on a simple division of labor. Yield Management Systems (YMS) watch the wafers — chamber pressure, defect density, tool drift. Environmental Health and Safety (EHS) systems watch the plant — water draw, gas venting, waste streams. The two rarely talk to each other, and until recently, nobody needed them to. A scrapped lot was a yield problem. A permit filing was an EHS problem. Different dashboards, different owners, different meetings.
+
+That division is getting expensive, and not because of an internal sustainability push. It's because Brussels soon put a price tag on the gap between them. Fabs must be **smart, safe, and sustainable**. 
+
+## Three regulations, one shared blind spot
+
+The Carbon Border Adjustment Mechanism (CBAM) now taxes the embedded carbon of imports like steel, aluminum, and electricity at the EU border [@eu_cbam_2023]. It doesn't yet reach chips directly — that distinction matters, and it's worth being precise about it, because semiconductors sit downstream of CBAM's current scope rather than inside it. But every fab pulling megawatt-scale power off a coal-heavy grid is exposed indirectly, through the carbon embedded in the inputs it buys and the near-certain direction CBAM's product list is heading.
+
+Meanwhile the Ecodesign for Sustainable Products Regulation (ESPR) is rolling out the Digital Product Passport (DPP) — a machine-readable record that's supposed to travel with a product and disclose its material provenance and lifecycle footprint [@eu_espr_2024]. And PFAS restrictions are closing in on the very chemistries — fluorinated etch gases, photoresist surfactants — that make advanced lithography possible in the first place.
+
+Here's the blind spot: none of these regimes care whether your carbon and chemical data live in a YMS or an EHS system. They want one number, traceable to one wafer lot, that's defensible at customs. Right now, most fabs can't produce that number without a manual reconciliation exercise between two systems that were never designed to reconcile.
+
+## The fix isn't a new dashboard
+
+The fix that's actually being piloted — by equipment makers and by outfits like PDF Solutions and imec exploring cryptographically signed, wafer-level carbon footprints — is to fuse YMS defect telemetry with EHS resource telemetry at the point of generation. 
+
+Every time a lot is scrapped mid-process, you've already burned the ultra-pure water, the specialty gas, and the grid power that went into it up to that step. **That's a carbon cost with no die to show for it.** A fab that tracks yield and carbon in the same data model can start optimizing for both instead of discovering the tradeoff at quarter-end.
+
+This is also, not coincidentally, the fifth and sixth layer of a six-layer Safe and Sustainable by Design (SSbD) architecture we've been developing for the IEEE ICE conference [@ang_liao2026_ice] — the layers where verified fab-floor data has to surface as something a customs declaration or an ESG auditor can actually use. (The trust mechanics that make that data verifiable without leaking proprietary recipes are their own separate problem, one we tackle in a companion paper on zero-trust industrial data spaces [@liao_ang2026_proxies].)
+
+## It plays out differently by region
+
+The cost of doing nothing isn't abstract, either. A fab that can't produce verifiable, lot-level carbon and chemical data doesn't get a discount for good intentions — it gets assessed at CBAM's default penalty benchmark, calculated on the assumption that it's among the dirtiest producers in its category. Verified telemetry isn't just good practice at that point; it's the only way to avoid paying for a footprint you don't actually have.
+
+And this isn't one problem with one shape:
+
+- **Taiwan** carries the sharpest Scope 2 exposure — EUV lithography is power-hungry, and the grid behind it is still carbon-heavy.
+- **Japan's** risk sits upstream, in fluorinated photoresist and etch chemistry that PFAS rules are squeezing hardest.
+- **China's** legacy-node fabs face a different threat: without verified telemetry, they default to CBAM's *worst-case* penalty benchmark rather than their actual footprint.
+- **Malaysia's** OSAT (Outsourced Semiconductor Assembly and Test) hubs are exposed through packaging inputs — copper leadframes, bonding wire — as CBAM's raw-material scope creeps toward metals.
+
+Four very different fabs, one shared fix: make the carbon and chemical data trustworthy enough, and specific enough to a wafer lot, that it survives contact with a customs official.
+
+## Where this is headed
+
+We're developing the fuller version of this argument — with the regional trade-exposure analysis worked through in more depth — as a short paper for a journal on Green Technologies or Sustainability. If you work in fab operations, EHS, or trade compliance and this split between yield and environmental systems sounds familiar, we'd like to hear how you're bridging it, or whether you've concluded it isn't worth bridging yet.
+
+## References
+
+::: {#refs}
+:::
